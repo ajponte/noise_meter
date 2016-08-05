@@ -1,0 +1,2050 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.3.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@3.10.5
+3 info using node@v6.3.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData grunt-contrib-imagemin
+20 silly mapToRegistry name grunt-contrib-imagemin
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'grunt-contrib-imagemin',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'grunt-contrib-imagemin',
+23 silly mapToRegistry   name: 'grunt-contrib-imagemin',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin
+25 verbose request uri http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 12:28:42 PM
+28 verbose request id c4159bac4f5ddec7
+29 verbose etag "2LPO2RNNXQOVYXM8SZYKY18EN"
+30 http request GET http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin
+31 http 304 http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin
+32 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+32 verbose headers   date: 'Fri, 05 Aug 2016 19:28:40 GMT',
+32 verbose headers   via: '1.1 varnish',
+32 verbose headers   'cache-control': 'max-age=300',
+32 verbose headers   etag: '"2LPO2RNNXQOVYXM8SZYKY18EN"',
+32 verbose headers   age: '239',
+32 verbose headers   connection: 'keep-alive',
+32 verbose headers   'x-served-by': 'cache-sjc3138-SJC',
+32 verbose headers   'x-cache': 'HIT',
+32 verbose headers   'x-cache-hits': '1',
+32 verbose headers   'x-timer': 'S1470425320.890265,VS0,VE0',
+32 verbose headers   vary: 'Accept-Encoding' }
+33 silly get cb [ 304,
+33 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+33 silly get     date: 'Fri, 05 Aug 2016 19:28:40 GMT',
+33 silly get     via: '1.1 varnish',
+33 silly get     'cache-control': 'max-age=300',
+33 silly get     etag: '"2LPO2RNNXQOVYXM8SZYKY18EN"',
+33 silly get     age: '239',
+33 silly get     connection: 'keep-alive',
+33 silly get     'x-served-by': 'cache-sjc3138-SJC',
+33 silly get     'x-cache': 'HIT',
+33 silly get     'x-cache-hits': '1',
+33 silly get     'x-timer': 'S1470425320.890265,VS0,VE0',
+33 silly get     vary: 'Accept-Encoding' } ]
+34 verbose etag http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin from cache
+35 verbose get saving grunt-contrib-imagemin to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/grunt-contrib-imagemin/.cache.json
+36 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+37 silly resolveWithNewModule grunt-contrib-imagemin@0.4.1 checking installable status
+38 silly cache add args [ 'grunt-contrib-imagemin@~0.4.0', null ]
+39 verbose cache add spec grunt-contrib-imagemin@~0.4.0
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'grunt-contrib-imagemin@~0.4.0',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'grunt-contrib-imagemin',
+40 silly cache add   name: 'grunt-contrib-imagemin',
+40 silly cache add   rawSpec: '~0.4.0',
+40 silly cache add   spec: '>=0.4.0 <0.5.0',
+40 silly cache add   type: 'range' }
+41 silly addNamed grunt-contrib-imagemin@>=0.4.0 <0.5.0
+42 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for grunt-contrib-imagemin
+43 silly addNameRange { name: 'grunt-contrib-imagemin',
+43 silly addNameRange   range: '>=0.4.0 <0.5.0',
+43 silly addNameRange   hasData: false }
+44 silly mapToRegistry name grunt-contrib-imagemin
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'grunt-contrib-imagemin',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'grunt-contrib-imagemin',
+47 silly mapToRegistry   name: 'grunt-contrib-imagemin',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin
+49 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin not in flight; fetching
+50 verbose get http://npmjs.locationlabs.com:1337/grunt-contrib-imagemin not expired, no request
+51 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+51 silly addNameRange   range: '>=0.4.0 <0.5.0',
+51 silly addNameRange   hasData: true }
+52 silly addNameRange versions [ 'grunt-contrib-imagemin',
+52 silly addNameRange   [ '0.1.0',
+52 silly addNameRange     '0.1.1',
+52 silly addNameRange     '0.1.2',
+52 silly addNameRange     '0.1.3',
+52 silly addNameRange     '0.1.4',
+52 silly addNameRange     '0.1.1-rc7',
+52 silly addNameRange     '0.1.1-rc8',
+52 silly addNameRange     '0.2.0',
+52 silly addNameRange     '0.2.1',
+52 silly addNameRange     '0.3.0',
+52 silly addNameRange     '0.4.0',
+52 silly addNameRange     '0.4.1',
+52 silly addNameRange     '0.5.0',
+52 silly addNameRange     '0.6.0',
+52 silly addNameRange     '0.6.1',
+52 silly addNameRange     '0.7.0',
+52 silly addNameRange     '0.7.1',
+52 silly addNameRange     '0.7.2',
+52 silly addNameRange     '0.8.0',
+52 silly addNameRange     '0.8.1',
+52 silly addNameRange     '0.9.0',
+52 silly addNameRange     '0.9.1',
+52 silly addNameRange     '0.9.2',
+52 silly addNameRange     '0.9.3',
+52 silly addNameRange     '0.9.4',
+52 silly addNameRange     '1.0.0',
+52 silly addNameRange     '1.0.1' ] ]
+53 silly addNamed grunt-contrib-imagemin@0.4.1
+54 verbose addNamed "0.4.1" is a plain semver version for grunt-contrib-imagemin
+55 silly cache afterAdd grunt-contrib-imagemin@0.4.1
+56 verbose afterAdd /Users/alan.ponte/.npm/grunt-contrib-imagemin/0.4.1/package/package.json not in flight; writing
+57 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+58 verbose afterAdd /Users/alan.ponte/.npm/grunt-contrib-imagemin/0.4.1/package/package.json written
+59 silly fetchNamedPackageData gifsicle
+60 silly mapToRegistry name gifsicle
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'gifsicle',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   escapedName: 'gifsicle',
+63 silly mapToRegistry   name: 'gifsicle',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/gifsicle
+65 silly fetchNamedPackageData chalk
+66 silly mapToRegistry name chalk
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'chalk',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   escapedName: 'chalk',
+69 silly mapToRegistry   name: 'chalk',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/chalk
+71 silly fetchNamedPackageData async
+72 silly mapToRegistry name async
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+75 silly mapToRegistry data Result {
+75 silly mapToRegistry   raw: 'async',
+75 silly mapToRegistry   scope: null,
+75 silly mapToRegistry   escapedName: 'async',
+75 silly mapToRegistry   name: 'async',
+75 silly mapToRegistry   rawSpec: '',
+75 silly mapToRegistry   spec: 'latest',
+75 silly mapToRegistry   type: 'tag' }
+76 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/async
+77 verbose request uri http://npmjs.locationlabs.com:1337/gifsicle
+78 verbose request no auth needed
+79 info attempt registry request try #1 at 12:28:42 PM
+80 verbose etag "CABGURN3A0P6FDREB2TMZGPRJ"
+81 http request GET http://npmjs.locationlabs.com:1337/gifsicle
+82 verbose request uri http://npmjs.locationlabs.com:1337/chalk
+83 verbose request no auth needed
+84 info attempt registry request try #1 at 12:28:42 PM
+85 verbose etag "3U3PZ63HKG84I2DEJIQFZQ1QV"
+86 http request GET http://npmjs.locationlabs.com:1337/chalk
+87 verbose request uri http://npmjs.locationlabs.com:1337/async
+88 verbose request no auth needed
+89 info attempt registry request try #1 at 12:28:42 PM
+90 verbose etag "1CXNIWMNXU8878M53LE1FKVSR"
+91 http request GET http://npmjs.locationlabs.com:1337/async
+92 http 304 http://npmjs.locationlabs.com:1337/gifsicle
+93 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+93 verbose headers   date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+93 verbose headers   via: '1.1 varnish',
+93 verbose headers   'cache-control': 'max-age=300',
+93 verbose headers   etag: '"CABGURN3A0P6FDREB2TMZGPRJ"',
+93 verbose headers   age: '29',
+93 verbose headers   connection: 'keep-alive',
+93 verbose headers   'x-served-by': 'cache-sjc3135-SJC',
+93 verbose headers   'x-cache': 'HIT',
+93 verbose headers   'x-cache-hits': '1',
+93 verbose headers   'x-timer': 'S1470425321.171847,VS0,VE0',
+93 verbose headers   vary: 'Accept-Encoding' }
+94 silly get cb [ 304,
+94 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+94 silly get     date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+94 silly get     via: '1.1 varnish',
+94 silly get     'cache-control': 'max-age=300',
+94 silly get     etag: '"CABGURN3A0P6FDREB2TMZGPRJ"',
+94 silly get     age: '29',
+94 silly get     connection: 'keep-alive',
+94 silly get     'x-served-by': 'cache-sjc3135-SJC',
+94 silly get     'x-cache': 'HIT',
+94 silly get     'x-cache-hits': '1',
+94 silly get     'x-timer': 'S1470425321.171847,VS0,VE0',
+94 silly get     vary: 'Accept-Encoding' } ]
+95 verbose etag http://npmjs.locationlabs.com:1337/gifsicle from cache
+96 verbose get saving gifsicle to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/gifsicle/.cache.json
+97 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+98 silly resolveWithNewModule gifsicle@0.1.7 checking installable status
+99 silly cache add args [ 'gifsicle@~0.1.0', null ]
+100 verbose cache add spec gifsicle@~0.1.0
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'gifsicle@~0.1.0',
+101 silly cache add   scope: null,
+101 silly cache add   escapedName: 'gifsicle',
+101 silly cache add   name: 'gifsicle',
+101 silly cache add   rawSpec: '~0.1.0',
+101 silly cache add   spec: '>=0.1.0 <0.2.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed gifsicle@>=0.1.0 <0.2.0
+103 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for gifsicle
+104 silly addNameRange { name: 'gifsicle', range: '>=0.1.0 <0.2.0', hasData: false }
+105 silly mapToRegistry name gifsicle
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'gifsicle',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   escapedName: 'gifsicle',
+108 silly mapToRegistry   name: 'gifsicle',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/gifsicle
+110 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/gifsicle not in flight; fetching
+111 verbose get http://npmjs.locationlabs.com:1337/gifsicle not expired, no request
+112 silly addNameRange number 2 { name: 'gifsicle', range: '>=0.1.0 <0.2.0', hasData: true }
+113 silly addNameRange versions [ 'gifsicle',
+113 silly addNameRange   [ '0.1.0',
+113 silly addNameRange     '0.1.1',
+113 silly addNameRange     '0.1.2',
+113 silly addNameRange     '0.1.3',
+113 silly addNameRange     '0.1.4',
+113 silly addNameRange     '0.1.5',
+113 silly addNameRange     '0.1.6',
+113 silly addNameRange     '0.1.7',
+113 silly addNameRange     '1.0.0',
+113 silly addNameRange     '1.0.1',
+113 silly addNameRange     '1.0.2',
+113 silly addNameRange     '1.0.3',
+113 silly addNameRange     '2.0.0',
+113 silly addNameRange     '2.0.1',
+113 silly addNameRange     '3.0.0',
+113 silly addNameRange     '3.0.1',
+113 silly addNameRange     '3.0.2',
+113 silly addNameRange     '3.0.3' ] ]
+114 silly addNamed gifsicle@0.1.7
+115 verbose addNamed "0.1.7" is a plain semver version for gifsicle
+116 silly cache afterAdd gifsicle@0.1.7
+117 verbose afterAdd /Users/alan.ponte/.npm/gifsicle/0.1.7/package/package.json not in flight; writing
+118 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+119 verbose afterAdd /Users/alan.ponte/.npm/gifsicle/0.1.7/package/package.json written
+120 http 304 http://npmjs.locationlabs.com:1337/chalk
+121 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+121 verbose headers   date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+121 verbose headers   via: '1.1 varnish',
+121 verbose headers   'cache-control': 'max-age=300',
+121 verbose headers   etag: '"3U3PZ63HKG84I2DEJIQFZQ1QV"',
+121 verbose headers   age: '199',
+121 verbose headers   connection: 'keep-alive',
+121 verbose headers   'x-served-by': 'cache-sjc3626-SJC',
+121 verbose headers   'x-cache': 'HIT',
+121 verbose headers   'x-cache-hits': '8',
+121 verbose headers   'x-timer': 'S1470425321.184697,VS0,VE0',
+121 verbose headers   vary: 'Accept-Encoding' }
+122 silly get cb [ 304,
+122 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+122 silly get     date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+122 silly get     via: '1.1 varnish',
+122 silly get     'cache-control': 'max-age=300',
+122 silly get     etag: '"3U3PZ63HKG84I2DEJIQFZQ1QV"',
+122 silly get     age: '199',
+122 silly get     connection: 'keep-alive',
+122 silly get     'x-served-by': 'cache-sjc3626-SJC',
+122 silly get     'x-cache': 'HIT',
+122 silly get     'x-cache-hits': '8',
+122 silly get     'x-timer': 'S1470425321.184697,VS0,VE0',
+122 silly get     vary: 'Accept-Encoding' } ]
+123 verbose etag http://npmjs.locationlabs.com:1337/chalk from cache
+124 verbose get saving chalk to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/chalk/.cache.json
+125 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+126 silly resolveWithNewModule chalk@0.4.0 checking installable status
+127 silly cache add args [ 'chalk@~0.4.0', null ]
+128 verbose cache add spec chalk@~0.4.0
+129 silly cache add parsed spec Result {
+129 silly cache add   raw: 'chalk@~0.4.0',
+129 silly cache add   scope: null,
+129 silly cache add   escapedName: 'chalk',
+129 silly cache add   name: 'chalk',
+129 silly cache add   rawSpec: '~0.4.0',
+129 silly cache add   spec: '>=0.4.0 <0.5.0',
+129 silly cache add   type: 'range' }
+130 silly addNamed chalk@>=0.4.0 <0.5.0
+131 verbose addNamed ">=0.4.0 <0.5.0" is a valid semver range for chalk
+132 silly addNameRange { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: false }
+133 silly mapToRegistry name chalk
+134 silly mapToRegistry using default registry
+135 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+136 silly mapToRegistry data Result {
+136 silly mapToRegistry   raw: 'chalk',
+136 silly mapToRegistry   scope: null,
+136 silly mapToRegistry   escapedName: 'chalk',
+136 silly mapToRegistry   name: 'chalk',
+136 silly mapToRegistry   rawSpec: '',
+136 silly mapToRegistry   spec: 'latest',
+136 silly mapToRegistry   type: 'tag' }
+137 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/chalk
+138 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/chalk not in flight; fetching
+139 http 304 http://npmjs.locationlabs.com:1337/async
+140 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+140 verbose headers   date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+140 verbose headers   via: '1.1 varnish',
+140 verbose headers   'cache-control': 'max-age=300',
+140 verbose headers   etag: '"1CXNIWMNXU8878M53LE1FKVSR"',
+140 verbose headers   age: '75',
+140 verbose headers   connection: 'keep-alive',
+140 verbose headers   'x-served-by': 'cache-sjc3147-SJC',
+140 verbose headers   'x-cache': 'HIT',
+140 verbose headers   'x-cache-hits': '4',
+140 verbose headers   'x-timer': 'S1470425321.190625,VS0,VE0',
+140 verbose headers   vary: 'Accept-Encoding' }
+141 silly get cb [ 304,
+141 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+141 silly get     date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+141 silly get     via: '1.1 varnish',
+141 silly get     'cache-control': 'max-age=300',
+141 silly get     etag: '"1CXNIWMNXU8878M53LE1FKVSR"',
+141 silly get     age: '75',
+141 silly get     connection: 'keep-alive',
+141 silly get     'x-served-by': 'cache-sjc3147-SJC',
+141 silly get     'x-cache': 'HIT',
+141 silly get     'x-cache-hits': '4',
+141 silly get     'x-timer': 'S1470425321.190625,VS0,VE0',
+141 silly get     vary: 'Accept-Encoding' } ]
+142 verbose etag http://npmjs.locationlabs.com:1337/async from cache
+143 verbose get saving async to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/async/.cache.json
+144 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+145 verbose get http://npmjs.locationlabs.com:1337/chalk not expired, no request
+146 silly addNameRange number 2 { name: 'chalk', range: '>=0.4.0 <0.5.0', hasData: true }
+147 silly addNameRange versions [ 'chalk',
+147 silly addNameRange   [ '0.1.0',
+147 silly addNameRange     '0.1.1',
+147 silly addNameRange     '0.2.0',
+147 silly addNameRange     '0.2.1',
+147 silly addNameRange     '0.3.0',
+147 silly addNameRange     '0.4.0',
+147 silly addNameRange     '0.5.0',
+147 silly addNameRange     '0.5.1',
+147 silly addNameRange     '1.0.0',
+147 silly addNameRange     '1.1.0',
+147 silly addNameRange     '1.1.1',
+147 silly addNameRange     '1.1.2',
+147 silly addNameRange     '1.1.3' ] ]
+148 silly addNamed chalk@0.4.0
+149 verbose addNamed "0.4.0" is a plain semver version for chalk
+150 silly cache afterAdd chalk@0.4.0
+151 verbose afterAdd /Users/alan.ponte/.npm/chalk/0.4.0/package/package.json not in flight; writing
+152 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+153 silly resolveWithNewModule async@0.2.10 checking installable status
+154 silly cache add args [ 'async@~0.2.9', null ]
+155 verbose cache add spec async@~0.2.9
+156 silly cache add parsed spec Result {
+156 silly cache add   raw: 'async@~0.2.9',
+156 silly cache add   scope: null,
+156 silly cache add   escapedName: 'async',
+156 silly cache add   name: 'async',
+156 silly cache add   rawSpec: '~0.2.9',
+156 silly cache add   spec: '>=0.2.9 <0.3.0',
+156 silly cache add   type: 'range' }
+157 silly addNamed async@>=0.2.9 <0.3.0
+158 verbose addNamed ">=0.2.9 <0.3.0" is a valid semver range for async
+159 silly addNameRange { name: 'async', range: '>=0.2.9 <0.3.0', hasData: false }
+160 silly mapToRegistry name async
+161 silly mapToRegistry using default registry
+162 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+163 silly mapToRegistry data Result {
+163 silly mapToRegistry   raw: 'async',
+163 silly mapToRegistry   scope: null,
+163 silly mapToRegistry   escapedName: 'async',
+163 silly mapToRegistry   name: 'async',
+163 silly mapToRegistry   rawSpec: '',
+163 silly mapToRegistry   spec: 'latest',
+163 silly mapToRegistry   type: 'tag' }
+164 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/async
+165 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/async not in flight; fetching
+166 verbose get http://npmjs.locationlabs.com:1337/async not expired, no request
+167 silly addNameRange number 2 { name: 'async', range: '>=0.2.9 <0.3.0', hasData: true }
+168 silly addNameRange versions [ 'async',
+168 silly addNameRange   [ '0.1.0',
+168 silly addNameRange     '0.1.1',
+168 silly addNameRange     '0.1.2',
+168 silly addNameRange     '0.1.3',
+168 silly addNameRange     '0.1.4',
+168 silly addNameRange     '0.1.5',
+168 silly addNameRange     '0.1.6',
+168 silly addNameRange     '0.1.7',
+168 silly addNameRange     '0.1.8',
+168 silly addNameRange     '0.1.9',
+168 silly addNameRange     '0.1.10',
+168 silly addNameRange     '0.1.11',
+168 silly addNameRange     '0.1.12',
+168 silly addNameRange     '0.1.13',
+168 silly addNameRange     '0.1.14',
+168 silly addNameRange     '0.1.15',
+168 silly addNameRange     '0.1.16',
+168 silly addNameRange     '0.1.17',
+168 silly addNameRange     '0.1.18',
+168 silly addNameRange     '0.1.19',
+168 silly addNameRange     '0.1.20',
+168 silly addNameRange     '0.1.21',
+168 silly addNameRange     '0.1.22',
+168 silly addNameRange     '0.2.0',
+168 silly addNameRange     '0.2.1',
+168 silly addNameRange     '0.2.2',
+168 silly addNameRange     '0.2.3',
+168 silly addNameRange     '0.2.4',
+168 silly addNameRange     '0.2.5',
+168 silly addNameRange     '0.2.6',
+168 silly addNameRange     '0.2.7',
+168 silly addNameRange     '0.2.8',
+168 silly addNameRange     '0.2.9',
+168 silly addNameRange     '0.2.10',
+168 silly addNameRange     '0.3.0',
+168 silly addNameRange     '0.4.0',
+168 silly addNameRange     '0.4.1',
+168 silly addNameRange     '0.5.0',
+168 silly addNameRange     '0.6.0',
+168 silly addNameRange     '0.6.1',
+168 silly addNameRange     '0.6.2',
+168 silly addNameRange     '0.7.0',
+168 silly addNameRange     '0.8.0',
+168 silly addNameRange     '0.9.0',
+168 silly addNameRange     '0.9.2',
+168 silly addNameRange     '1.0.0',
+168 silly addNameRange     '1.1.0',
+168 silly addNameRange     '1.2.0',
+168 silly addNameRange     '1.1.1',
+168 silly addNameRange     '1.2.1',
+168 silly addNameRange     '1.3.0',
+168 silly addNameRange     '1.4.0',
+168 silly addNameRange     '1.4.1',
+168 silly addNameRange     '1.4.2',
+168 silly addNameRange     '1.5.0',
+168 silly addNameRange     '1.5.1',
+168 silly addNameRange     '1.5.2',
+168 silly addNameRange     '2.0.0-alpha.0',
+168 silly addNameRange     '2.0.0-rc.1',
+168 silly addNameRange     '2.0.0-rc.2',
+168 silly addNameRange     '2.0.0-rc.3',
+168 silly addNameRange     '2.0.0-rc.4',
+168 silly addNameRange     '2.0.0-rc.5',
+168 silly addNameRange     '2.0.0-rc.6',
+168 silly addNameRange     '2.0.0',
+168 silly addNameRange     '2.0.1' ] ]
+169 silly addNamed async@0.2.10
+170 verbose addNamed "0.2.10" is a plain semver version for async
+171 verbose afterAdd /Users/alan.ponte/.npm/chalk/0.4.0/package/package.json written
+172 silly cache afterAdd async@0.2.10
+173 verbose afterAdd /Users/alan.ponte/.npm/async/0.2.10/package/package.json not in flight; writing
+174 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+175 verbose afterAdd /Users/alan.ponte/.npm/async/0.2.10/package/package.json written
+176 silly fetchNamedPackageData ansi-styles
+177 silly mapToRegistry name ansi-styles
+178 silly mapToRegistry using default registry
+179 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+180 silly mapToRegistry data Result {
+180 silly mapToRegistry   raw: 'ansi-styles',
+180 silly mapToRegistry   scope: null,
+180 silly mapToRegistry   escapedName: 'ansi-styles',
+180 silly mapToRegistry   name: 'ansi-styles',
+180 silly mapToRegistry   rawSpec: '',
+180 silly mapToRegistry   spec: 'latest',
+180 silly mapToRegistry   type: 'tag' }
+181 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/ansi-styles
+182 verbose request uri http://npmjs.locationlabs.com:1337/ansi-styles
+183 verbose request no auth needed
+184 info attempt registry request try #1 at 12:28:42 PM
+185 verbose etag "2S43S9IH54YQSFIO0BL7CTRUF"
+186 http request GET http://npmjs.locationlabs.com:1337/ansi-styles
+187 http 304 http://npmjs.locationlabs.com:1337/ansi-styles
+188 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+188 verbose headers   date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+188 verbose headers   via: '1.1 varnish',
+188 verbose headers   'cache-control': 'max-age=300',
+188 verbose headers   etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+188 verbose headers   age: '89',
+188 verbose headers   connection: 'keep-alive',
+188 verbose headers   'x-served-by': 'cache-sjc3127-SJC',
+188 verbose headers   'x-cache': 'HIT',
+188 verbose headers   'x-cache-hits': '5',
+188 verbose headers   'x-timer': 'S1470425321.368387,VS0,VE0',
+188 verbose headers   vary: 'Accept-Encoding' }
+189 silly get cb [ 304,
+189 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+189 silly get     date: 'Fri, 05 Aug 2016 19:28:41 GMT',
+189 silly get     via: '1.1 varnish',
+189 silly get     'cache-control': 'max-age=300',
+189 silly get     etag: '"2S43S9IH54YQSFIO0BL7CTRUF"',
+189 silly get     age: '89',
+189 silly get     connection: 'keep-alive',
+189 silly get     'x-served-by': 'cache-sjc3127-SJC',
+189 silly get     'x-cache': 'HIT',
+189 silly get     'x-cache-hits': '5',
+189 silly get     'x-timer': 'S1470425321.368387,VS0,VE0',
+189 silly get     vary: 'Accept-Encoding' } ]
+190 verbose etag http://npmjs.locationlabs.com:1337/ansi-styles from cache
+191 verbose get saving ansi-styles to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/ansi-styles/.cache.json
+192 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+193 silly resolveWithNewModule ansi-styles@1.0.0 checking installable status
+194 silly cache add args [ 'ansi-styles@~1.0.0', null ]
+195 verbose cache add spec ansi-styles@~1.0.0
+196 silly cache add parsed spec Result {
+196 silly cache add   raw: 'ansi-styles@~1.0.0',
+196 silly cache add   scope: null,
+196 silly cache add   escapedName: 'ansi-styles',
+196 silly cache add   name: 'ansi-styles',
+196 silly cache add   rawSpec: '~1.0.0',
+196 silly cache add   spec: '>=1.0.0 <1.1.0',
+196 silly cache add   type: 'range' }
+197 silly addNamed ansi-styles@>=1.0.0 <1.1.0
+198 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for ansi-styles
+199 silly addNameRange { name: 'ansi-styles', range: '>=1.0.0 <1.1.0', hasData: false }
+200 silly mapToRegistry name ansi-styles
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+203 silly mapToRegistry data Result {
+203 silly mapToRegistry   raw: 'ansi-styles',
+203 silly mapToRegistry   scope: null,
+203 silly mapToRegistry   escapedName: 'ansi-styles',
+203 silly mapToRegistry   name: 'ansi-styles',
+203 silly mapToRegistry   rawSpec: '',
+203 silly mapToRegistry   spec: 'latest',
+203 silly mapToRegistry   type: 'tag' }
+204 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/ansi-styles
+205 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/ansi-styles not in flight; fetching
+206 verbose get http://npmjs.locationlabs.com:1337/ansi-styles not expired, no request
+207 silly addNameRange number 2 { name: 'ansi-styles', range: '>=1.0.0 <1.1.0', hasData: true }
+208 silly addNameRange versions [ 'ansi-styles',
+208 silly addNameRange   [ '0.1.0',
+208 silly addNameRange     '0.1.1',
+208 silly addNameRange     '0.1.2',
+208 silly addNameRange     '0.2.0',
+208 silly addNameRange     '1.0.0',
+208 silly addNameRange     '1.1.0',
+208 silly addNameRange     '2.0.0',
+208 silly addNameRange     '2.0.1',
+208 silly addNameRange     '2.1.0',
+208 silly addNameRange     '2.2.1' ] ]
+209 silly addNamed ansi-styles@1.0.0
+210 verbose addNamed "1.0.0" is a plain semver version for ansi-styles
+211 silly cache afterAdd ansi-styles@1.0.0
+212 verbose afterAdd /Users/alan.ponte/.npm/ansi-styles/1.0.0/package/package.json not in flight; writing
+213 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+214 verbose afterAdd /Users/alan.ponte/.npm/ansi-styles/1.0.0/package/package.json written
+215 silly fetchOtherPackageData fsevents@github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+216 silly cache add args [ 'fsevents@github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+216 silly cache add   null ]
+217 verbose cache add spec fsevents@github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+218 silly cache add parsed spec Result {
+218 silly cache add   raw: 'fsevents@github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add   scope: null,
+218 silly cache add   escapedName: 'fsevents',
+218 silly cache add   name: 'fsevents',
+218 silly cache add   rawSpec: 'github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add   spec: 'github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add   type: 'hosted',
+218 silly cache add   hosted:
+218 silly cache add    { type: 'github',
+218 silly cache add      ssh: 'git@github.com:pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add      sshUrl: 'git+ssh://git@github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add      httpsUrl: 'git+https://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add      gitUrl: 'git://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add      shortcut: 'github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138',
+218 silly cache add      directUrl: 'https://raw.githubusercontent.com/pipobscure/fsevents/7dcdf9fa3f8956610fd6f69f72c67bace2de7138/package.json' } }
+219 verbose addRemoteGit caching github:pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+220 verbose addRemoteGit pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 is a repository hosted by github
+221 silly tryGitProto attempting to clone git://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+222 silly tryClone cloning pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 via git://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+223 verbose tryClone git-github-com-pipobscure-fsevents-git-7dcdf9fa3f8956610fd6f69f72c67bace2de7138-40e7e494 not in flight; caching
+224 verbose correctMkdir /Users/alan.ponte/.npm/_git-remotes correctMkdir not in flight; initializing
+225 info git [ 'config', '--get', 'remote.origin.url' ]
+226 silly validateExistingRemote pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 remote.origin.url: git://github.com/pipobscure/fsevents.git
+227 verbose validateExistingRemote pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 is updating existing cached remote /Users/alan.ponte/.npm/_git-remotes/git-github-com-pipobscure-fsevents-git-7dcdf9fa3f8956610fd6f69f72c67bace2de7138-40e7e494
+228 info git [ 'fetch', '-a', 'origin' ]
+229 verbose updateRemote git fetch -a origin (git://github.com/pipobscure/fsevents.git)
+230 verbose correctMkdir /Users/alan.ponte/.npm/_git-remotes correctMkdir not in flight; initializing
+231 verbose setPermissions pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 set permissions on /Users/alan.ponte/.npm/_git-remotes/git-github-com-pipobscure-fsevents-git-7dcdf9fa3f8956610fd6f69f72c67bace2de7138-40e7e494
+232 verbose resolveHead pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 original treeish: 7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+233 info git [ 'rev-list', '-n1', '7dcdf9fa3f8956610fd6f69f72c67bace2de7138' ]
+234 silly resolveHead pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 resolved treeish: 7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+235 verbose resolveHead pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 resolved Git URL: git://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+236 silly resolveHead Git working directory: /tmp/npm-16622-bd5365c0/git-cache-c6368151/7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+237 info git [ 'clone',
+237 info git   '/Users/alan.ponte/.npm/_git-remotes/git-github-com-pipobscure-fsevents-git-7dcdf9fa3f8956610fd6f69f72c67bace2de7138-40e7e494',
+237 info git   '/tmp/npm-16622-bd5365c0/git-cache-c6368151/7dcdf9fa3f8956610fd6f69f72c67bace2de7138' ]
+238 verbose cloneResolved pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 clone Cloning into '/tmp/npm-16622-bd5365c0/git-cache-c6368151/7dcdf9fa3f8956610fd6f69f72c67bace2de7138'...
+238 verbose cloneResolved done.
+239 info git [ 'checkout', '7dcdf9fa3f8956610fd6f69f72c67bace2de7138' ]
+240 verbose checkoutTreeish pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 checkout Note: checking out '7dcdf9fa3f8956610fd6f69f72c67bace2de7138'.
+240 verbose checkoutTreeish
+240 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+240 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+240 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+240 verbose checkoutTreeish
+240 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+240 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+240 verbose checkoutTreeish
+240 verbose checkoutTreeish   git checkout -b <new-branch-name>
+240 verbose checkoutTreeish
+240 verbose checkoutTreeish HEAD is now at 7dcdf9f... Caught a timing problem
+241 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+242 verbose updateSubmodules pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138 submodule update
+243 verbose addLocalDirectory /Users/alan.ponte/.npm/fsevents/0.2.1/package.tgz not in flight; packing
+244 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+245 verbose tar pack [ '/Users/alan.ponte/.npm/fsevents/0.2.1/package.tgz',
+245 verbose tar pack   '/tmp/npm-16622-bd5365c0/git-cache-c6368151/7dcdf9fa3f8956610fd6f69f72c67bace2de7138' ]
+246 verbose tarball /Users/alan.ponte/.npm/fsevents/0.2.1/package.tgz
+247 verbose folder /tmp/npm-16622-bd5365c0/git-cache-c6368151/7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+248 verbose addLocalTarball adding from inside cache /Users/alan.ponte/.npm/fsevents/0.2.1/package.tgz
+249 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+250 verbose addRemoteGit data._from: pipobscure/fsevents#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+251 verbose addRemoteGit data._resolved: git://github.com/pipobscure/fsevents.git#7dcdf9fa3f8956610fd6f69f72c67bace2de7138
+252 silly cache afterAdd fsevents@0.2.1
+253 verbose afterAdd /Users/alan.ponte/.npm/fsevents/0.2.1/package/package.json not in flight; writing
+254 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+255 verbose afterAdd /Users/alan.ponte/.npm/fsevents/0.2.1/package/package.json written
+256 silly resolveWithNewModule fsevents@0.2.1 checking installable status
+257 silly fetchNamedPackageData nan
+258 silly mapToRegistry name nan
+259 silly mapToRegistry using default registry
+260 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+261 silly mapToRegistry data Result {
+261 silly mapToRegistry   raw: 'nan',
+261 silly mapToRegistry   scope: null,
+261 silly mapToRegistry   escapedName: 'nan',
+261 silly mapToRegistry   name: 'nan',
+261 silly mapToRegistry   rawSpec: '',
+261 silly mapToRegistry   spec: 'latest',
+261 silly mapToRegistry   type: 'tag' }
+262 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/nan
+263 verbose request uri http://npmjs.locationlabs.com:1337/nan
+264 verbose request no auth needed
+265 info attempt registry request try #1 at 12:28:43 PM
+266 verbose etag "EGTR1APXEV7TH8V3QYT0WN357"
+267 http request GET http://npmjs.locationlabs.com:1337/nan
+268 http 304 http://npmjs.locationlabs.com:1337/nan
+269 verbose headers { 'x-registry': 'https://registry.npmjs.org/',
+269 verbose headers   date: 'Fri, 05 Aug 2016 19:28:42 GMT',
+269 verbose headers   via: '1.1 varnish',
+269 verbose headers   'cache-control': 'max-age=300',
+269 verbose headers   etag: '"EGTR1APXEV7TH8V3QYT0WN357"',
+269 verbose headers   age: '167',
+269 verbose headers   connection: 'keep-alive',
+269 verbose headers   'x-served-by': 'cache-sjc3125-SJC',
+269 verbose headers   'x-cache': 'HIT',
+269 verbose headers   'x-cache-hits': '1',
+269 verbose headers   'x-timer': 'S1470425322.254651,VS0,VE0',
+269 verbose headers   vary: 'Accept-Encoding' }
+270 silly get cb [ 304,
+270 silly get   { 'x-registry': 'https://registry.npmjs.org/',
+270 silly get     date: 'Fri, 05 Aug 2016 19:28:42 GMT',
+270 silly get     via: '1.1 varnish',
+270 silly get     'cache-control': 'max-age=300',
+270 silly get     etag: '"EGTR1APXEV7TH8V3QYT0WN357"',
+270 silly get     age: '167',
+270 silly get     connection: 'keep-alive',
+270 silly get     'x-served-by': 'cache-sjc3125-SJC',
+270 silly get     'x-cache': 'HIT',
+270 silly get     'x-cache-hits': '1',
+270 silly get     'x-timer': 'S1470425322.254651,VS0,VE0',
+270 silly get     vary: 'Accept-Encoding' } ]
+271 verbose etag http://npmjs.locationlabs.com:1337/nan from cache
+272 verbose get saving nan to /Users/alan.ponte/.npm/npmjs.locationlabs.com_1337/nan/.cache.json
+273 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+274 silly resolveWithNewModule nan@0.8.0 checking installable status
+275 silly cache add args [ 'nan@~0.8.0', null ]
+276 verbose cache add spec nan@~0.8.0
+277 silly cache add parsed spec Result {
+277 silly cache add   raw: 'nan@~0.8.0',
+277 silly cache add   scope: null,
+277 silly cache add   escapedName: 'nan',
+277 silly cache add   name: 'nan',
+277 silly cache add   rawSpec: '~0.8.0',
+277 silly cache add   spec: '>=0.8.0 <0.9.0',
+277 silly cache add   type: 'range' }
+278 silly addNamed nan@>=0.8.0 <0.9.0
+279 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for nan
+280 silly addNameRange { name: 'nan', range: '>=0.8.0 <0.9.0', hasData: false }
+281 silly mapToRegistry name nan
+282 silly mapToRegistry using default registry
+283 silly mapToRegistry registry http://npmjs.locationlabs.com:1337/
+284 silly mapToRegistry data Result {
+284 silly mapToRegistry   raw: 'nan',
+284 silly mapToRegistry   scope: null,
+284 silly mapToRegistry   escapedName: 'nan',
+284 silly mapToRegistry   name: 'nan',
+284 silly mapToRegistry   rawSpec: '',
+284 silly mapToRegistry   spec: 'latest',
+284 silly mapToRegistry   type: 'tag' }
+285 silly mapToRegistry uri http://npmjs.locationlabs.com:1337/nan
+286 verbose addNameRange registry:http://npmjs.locationlabs.com:1337/nan not in flight; fetching
+287 verbose get http://npmjs.locationlabs.com:1337/nan not expired, no request
+288 silly addNameRange number 2 { name: 'nan', range: '>=0.8.0 <0.9.0', hasData: true }
+289 silly addNameRange versions [ 'nan',
+289 silly addNameRange   [ '0.3.0-wip',
+289 silly addNameRange     '0.3.0-wip2',
+289 silly addNameRange     '0.3.0',
+289 silly addNameRange     '0.3.1',
+289 silly addNameRange     '0.3.2',
+289 silly addNameRange     '0.4.0',
+289 silly addNameRange     '0.4.1',
+289 silly addNameRange     '0.4.2',
+289 silly addNameRange     '0.4.3',
+289 silly addNameRange     '0.4.4',
+289 silly addNameRange     '0.5.0',
+289 silly addNameRange     '0.5.1',
+289 silly addNameRange     '0.5.2',
+289 silly addNameRange     '0.6.0',
+289 silly addNameRange     '0.7.0',
+289 silly addNameRange     '0.7.1',
+289 silly addNameRange     '0.8.0',
+289 silly addNameRange     '1.0.0',
+289 silly addNameRange     '1.1.0',
+289 silly addNameRange     '1.1.1',
+289 silly addNameRange     '1.1.2',
+289 silly addNameRange     '1.2.0',
+289 silly addNameRange     '1.3.0',
+289 silly addNameRange     '1.4.0',
+289 silly addNameRange     '1.4.1',
+289 silly addNameRange     '1.5.0',
+289 silly addNameRange     '1.4.2',
+289 silly addNameRange     '1.4.3',
+289 silly addNameRange     '1.5.1',
+289 silly addNameRange     '1.5.2',
+289 silly addNameRange     '1.6.0',
+289 silly addNameRange     '1.5.3',
+289 silly addNameRange     '1.6.1',
+289 silly addNameRange     '1.6.2',
+289 silly addNameRange     '1.7.0',
+289 silly addNameRange     '1.8.0',
+289 silly addNameRange     '1.8.1',
+289 silly addNameRange     '1.8.2',
+289 silly addNameRange     '1.8.3',
+289 silly addNameRange     '1.8.4',
+289 silly addNameRange     '1.9.0',
+289 silly addNameRange     '2.0.0',
+289 silly addNameRange     '2.0.1',
+289 silly addNameRange     '2.0.2',
+289 silly addNameRange     '2.0.3',
+289 silly addNameRange     '2.0.4',
+289 silly addNameRange     '2.0.5',
+289 silly addNameRange     '2.0.6',
+289 silly addNameRange     '2.0.7',
+289 silly addNameRange     '2.0.8',
+289 silly addNameRange     '2.0.9',
+289 silly addNameRange     '2.1.0',
+289 silly addNameRange     '2.2.0',
+289 silly addNameRange     '2.2.1',
+289 silly addNameRange     '2.3.0',
+289 silly addNameRange     '2.3.1',
+289 silly addNameRange     '2.3.2',
+289 silly addNameRange     '2.3.3',
+289 silly addNameRange     '2.3.4',
+289 silly addNameRange     '2.3.5',
+289 silly addNameRange     '2.4.0' ] ]
+290 silly addNamed nan@0.8.0
+291 verbose addNamed "0.8.0" is a plain semver version for nan
+292 silly cache afterAdd nan@0.8.0
+293 verbose afterAdd /Users/alan.ponte/.npm/nan/0.8.0/package/package.json not in flight; writing
+294 verbose correctMkdir /Users/alan.ponte/.npm correctMkdir not in flight; initializing
+295 verbose afterAdd /Users/alan.ponte/.npm/nan/0.8.0/package/package.json written
+296 silly loadAllDepsIntoIdealTree Finishing
+297 silly loadIdealTree Finishing
+298 silly currentTree cartographers@0.0.0
+298 silly currentTree ├── abbrev@1.0.9
+298 silly currentTree ├── active-x-obfuscator@0.0.1
+298 silly currentTree ├── adm-zip@0.4.7
+298 silly currentTree ├── amdefine@1.0.0
+298 silly currentTree ├── ansi-regex@2.0.0
+298 silly currentTree ├── ansi-styles@0.1.2
+298 silly currentTree ├── ansicolors@0.2.1
+298 silly currentTree ├── archy@0.0.2
+298 silly currentTree ├─┬ argparse@0.1.16
+298 silly currentTree │ └── underscore.string@2.4.0
+298 silly currentTree ├── asn1@0.1.11
+298 silly currentTree ├── assert-plus@0.1.5
+298 silly currentTree ├── astral-angular-annotate@0.0.2
+298 silly currentTree ├── astral-pass@0.1.0
+298 silly currentTree ├── astral@0.1.0
+298 silly currentTree ├── async@0.1.22
+298 silly currentTree ├── aws-sign@0.3.0
+298 silly currentTree ├── aws-sign2@0.6.0
+298 silly currentTree ├── aws4@1.4.1
+298 silly currentTree ├── base64id@0.1.0
+298 silly currentTree ├── bin-build@0.1.1
+298 silly currentTree ├── bin-check@0.1.5
+298 silly currentTree ├── bin-wrapper@0.3.4
+298 silly currentTree ├── binary@0.3.0
+298 silly currentTree ├─┬ bl@1.1.2
+298 silly currentTree │ ├── isarray@1.0.0
+298 silly currentTree │ └── readable-stream@2.0.6
+298 silly currentTree ├── block-stream@0.0.9
+298 silly currentTree ├── boom@0.4.2
+298 silly currentTree ├─┬ bower-config@0.5.2
+298 silly currentTree │ ├── graceful-fs@2.0.3
+298 silly currentTree │ └── mout@0.9.1
+298 silly currentTree ├── bower-endpoint-parser@0.2.2
+298 silly currentTree ├─┬ bower-json@0.4.0
+298 silly currentTree │ └── graceful-fs@2.0.3
+298 silly currentTree ├── bower-logger@0.2.2
+298 silly currentTree ├─┬ bower-registry-client@0.1.6
+298 silly currentTree │ ├── async@0.2.10
+298 silly currentTree │ ├── bower-config@0.4.5
+298 silly currentTree │ ├── graceful-fs@2.0.3
+298 silly currentTree │ ├── lru-cache@2.3.1
+298 silly currentTree │ └── mout@0.6.0
+298 silly currentTree ├─┬ bower@1.2.8
+298 silly currentTree │ ├── ansi-styles@0.2.0
+298 silly currentTree │ ├── chalk@0.2.1
+298 silly currentTree │ ├── glob@3.2.11
+298 silly currentTree │ ├── graceful-fs@2.0.3
+298 silly currentTree │ ├── lru-cache@2.3.1
+298 silly currentTree │ ├── minimatch@0.3.0
+298 silly currentTree │ └── nopt@2.1.2
+298 silly currentTree ├── buffer-crc32@0.2.1
+298 silly currentTree ├── buffers@0.1.1
+298 silly currentTree ├── bytes@0.2.0
+298 silly currentTree ├── camelcase@1.2.1
+298 silly currentTree ├── cardinal@0.4.4
+298 silly currentTree ├── caseless@0.11.0
+298 silly currentTree ├── chainsaw@0.1.0
+298 silly currentTree ├── chalk@0.1.1
+298 silly currentTree ├── chmodr@0.1.2
+298 silly currentTree ├── chokidar@0.8.4
+298 silly currentTree ├─┬ clean-css@2.0.8
+298 silly currentTree │ └── commander@2.0.0
+298 silly currentTree ├── cli-color@0.2.3
+298 silly currentTree ├── cli@0.4.5
+298 silly currentTree ├── clone@0.1.19
+298 silly currentTree ├── coa@0.4.1
+298 silly currentTree ├── coffee-script@1.3.3
+298 silly currentTree ├── colors@0.6.2
+298 silly currentTree ├── combined-stream@0.0.7
+298 silly currentTree ├── commander@2.9.0
+298 silly currentTree ├─┬ configstore@0.3.2
+298 silly currentTree │ ├── argparse@1.0.7
+298 silly currentTree │ ├── esprima@2.7.2
+298 silly currentTree │ ├── graceful-fs@3.0.8
+298 silly currentTree │ ├── js-yaml@3.6.1
+298 silly currentTree │ ├── minimist@0.0.8
+298 silly currentTree │ ├── mkdirp@0.5.1
+298 silly currentTree │ └── osenv@0.1.3
+298 silly currentTree ├── connect-livereload@0.2.0
+298 silly currentTree ├─┬ connect@2.7.11
+298 silly currentTree │ └── qs@0.6.5
+298 silly currentTree ├── console-browserify@0.1.6
+298 silly currentTree ├── cookie-jar@0.3.0
+298 silly currentTree ├── cookie-signature@1.0.1
+298 silly currentTree ├── cookie@0.0.5
+298 silly currentTree ├── core-util-is@1.0.2
+298 silly currentTree ├── cryptiles@0.2.2
+298 silly currentTree ├── css-parse@1.6.0
+298 silly currentTree ├── css-stringify@1.4.1
+298 silly currentTree ├── ctype@0.5.3
+298 silly currentTree ├─┬ dashdash@1.14.0
+298 silly currentTree │ └── assert-plus@1.0.0
+298 silly currentTree ├── dateformat@1.0.2-1.2.3
+298 silly currentTree ├── debug@2.2.0
+298 silly currentTree ├── decamelize@1.2.0
+298 silly currentTree ├─┬ decompress-zip@0.0.8
+298 silly currentTree │ ├── graceful-fs@3.0.8
+298 silly currentTree │ ├── nopt@2.2.1
+298 silly currentTree │ └── q@1.0.1
+298 silly currentTree ├─┬ decompress@0.2.5
+298 silly currentTree │ └── nopt@2.2.1
+298 silly currentTree ├── deep-equal@1.0.1
+298 silly currentTree ├── deep-extend@0.2.11
+298 silly currentTree ├── delayed-stream@0.0.5
+298 silly currentTree ├── di@0.0.1
+298 silly currentTree ├─┬ download@0.1.19
+298 silly currentTree │ ├── assert-plus@0.2.0
+298 silly currentTree │ ├── async@1.5.2
+298 silly currentTree │ ├── boom@2.10.1
+298 silly currentTree │ ├── combined-stream@1.0.5
+298 silly currentTree │ ├── cryptiles@2.0.5
+298 silly currentTree │ ├── delayed-stream@1.0.0
+298 silly currentTree │ ├── forever-agent@0.6.1
+298 silly currentTree │ ├── form-data@1.0.0-rc4
+298 silly currentTree │ ├── hawk@3.1.3
+298 silly currentTree │ ├── hoek@2.16.3
+298 silly currentTree │ ├── http-signature@1.1.1
+298 silly currentTree │ ├── nopt@2.2.1
+298 silly currentTree │ ├── oauth-sign@0.8.2
+298 silly currentTree │ ├── qs@6.2.1
+298 silly currentTree │ ├── request@2.74.0
+298 silly currentTree │ ├── sntp@1.0.9
+298 silly currentTree │ └── tunnel-agent@0.4.3
+298 silly currentTree ├── duplexer@0.1.1
+298 silly currentTree ├── each-async@0.1.3
+298 silly currentTree ├── ecc-jsbn@0.1.1
+298 silly currentTree ├── es5-ext@0.9.2
+298 silly currentTree ├── escape-string-regexp@1.0.5
+298 silly currentTree ├── escodegen@0.0.28
+298 silly currentTree ├── esprima@1.0.4
+298 silly currentTree ├── estraverse@1.3.2
+298 silly currentTree ├── event-emitter@0.2.2
+298 silly currentTree ├── eventemitter2@0.4.14
+298 silly currentTree ├── eventemitter3@1.2.0
+298 silly currentTree ├── executable@0.1.3
+298 silly currentTree ├── exit@0.1.2
+298 silly currentTree ├── ext-list@0.2.0
+298 silly currentTree ├─┬ ext-name@1.0.1
+298 silly currentTree │ └── underscore.string@2.3.3
+298 silly currentTree ├── extend@3.0.0
+298 silly currentTree ├── extsprintf@1.0.2
+298 silly currentTree ├── faye-websocket@0.4.4
+298 silly currentTree ├── filesize@2.0.4
+298 silly currentTree ├── find-file@0.1.4
+298 silly currentTree ├─┬ findup-sync@0.1.3
+298 silly currentTree │ ├── glob@3.2.11
+298 silly currentTree │ ├── lodash@2.4.2
+298 silly currentTree │ └── minimatch@0.3.0
+298 silly currentTree ├── forever-agent@0.5.2
+298 silly currentTree ├─┬ form-data@0.1.4
+298 silly currentTree │ └── async@0.9.2
+298 silly currentTree ├── formidable@1.0.14
+298 silly currentTree ├── fresh@0.1.0
+298 silly currentTree ├─┬ fstream-ignore@0.0.10
+298 silly currentTree │ └── minimatch@0.3.0
+298 silly currentTree ├─┬ fstream@0.1.31
+298 silly currentTree │ ├── graceful-fs@3.0.8
+298 silly currentTree │ ├── minimist@0.0.8
+298 silly currentTree │ └── mkdirp@0.5.1
+298 silly currentTree ├── gaze@0.4.3
+298 silly currentTree ├── generate-function@2.0.0
+298 silly currentTree ├── generate-object-property@1.2.0
+298 silly currentTree ├── get-stdin@0.1.0
+298 silly currentTree ├── get-urls@0.1.2
+298 silly currentTree ├── getobject@0.1.0
+298 silly currentTree ├─┬ getpass@0.1.6
+298 silly currentTree │ └── assert-plus@1.0.0
+298 silly currentTree ├─┬ glob@3.1.21
+298 silly currentTree │ └── inherits@1.0.2
+298 silly currentTree ├─┬ globule@0.1.0
+298 silly currentTree │ └── lodash@1.0.2
+298 silly currentTree ├─┬ got@0.2.0
+298 silly currentTree │ └── object-assign@0.3.1
+298 silly currentTree ├── graceful-fs@1.2.3
+298 silly currentTree ├── graceful-readlink@1.0.1
+298 silly currentTree ├─┬ grunt-autoprefixer@0.4.2
+298 silly currentTree │ └── autoprefixer@0.8.20131213
+298 silly currentTree ├── grunt-bower-install@0.7.0
+298 silly currentTree ├─┬ grunt-bowercopy@0.4.1
+298 silly currentTree │ └── lodash@2.4.2
+298 silly currentTree ├─┬ grunt-concurrent@0.4.3
+298 silly currentTree │ └── async@0.2.10
+298 silly currentTree ├── grunt-connect-proxy@0.2.0
+298 silly currentTree ├── grunt-contrib-clean@0.5.0
+298 silly currentTree ├── grunt-contrib-concat@0.3.0
+298 silly currentTree ├─┬ grunt-contrib-connect@0.5.0
+298 silly currentTree │ └── open@0.0.4
+298 silly currentTree ├── grunt-contrib-copy@0.4.1
+298 silly currentTree ├── grunt-contrib-cssmin@0.7.0
+298 silly currentTree ├── grunt-contrib-htmlmin@0.1.3
+298 silly currentTree ├── grunt-contrib-jshint@0.7.2
+298 silly currentTree ├─┬ grunt-contrib-uglify@0.2.7
+298 silly currentTree │ ├── async@0.2.10
+298 silly currentTree │ ├── source-map@0.1.34
+298 silly currentTree │ └── uglify-js@2.4.24
+298 silly currentTree ├── grunt-contrib-watch@0.5.3
+298 silly currentTree ├── grunt-karma@0.6.2
+298 silly currentTree ├─┬ grunt-legacy-log-utils@0.1.1
+298 silly currentTree │ ├── lodash@2.4.2
+298 silly currentTree │ └── underscore.string@2.3.3
+298 silly currentTree ├─┬ grunt-legacy-log@0.1.3
+298 silly currentTree │ ├── lodash@2.4.2
+298 silly currentTree │ └── underscore.string@2.3.3
+298 silly currentTree ├── grunt-legacy-util@0.2.0
+298 silly currentTree ├── grunt-lib-contrib@0.6.1
+298 silly currentTree ├─┬ grunt-modernizr@0.4.1
+298 silly currentTree │ └── uglify-js@1.3.3
+298 silly currentTree ├── grunt-ngmin@0.0.3
+298 silly currentTree ├── grunt-rev@0.1.0
+298 silly currentTree ├─┬ grunt-svgmin@0.3.1
+298 silly currentTree │ ├── ansi-styles@1.0.0
+298 silly currentTree │ └── chalk@0.4.0
+298 silly currentTree ├─┬ grunt-sync@0.0.8
+298 silly currentTree │ └── promised-io@0.3.3
+298 silly currentTree ├─┬ grunt-usemin@2.0.2
+298 silly currentTree │ ├── debug@0.7.4
+298 silly currentTree │ └── lodash@1.0.2
+298 silly currentTree ├── grunt@0.4.5
+298 silly currentTree ├─┬ handlebars@1.0.12
+298 silly currentTree │ └── optimist@0.3.7
+298 silly currentTree ├─┬ har-validator@2.0.6
+298 silly currentTree │ ├── ansi-styles@2.2.1
+298 silly currentTree │ ├── chalk@1.1.3
+298 silly currentTree │ └── strip-ansi@3.0.1
+298 silly currentTree ├── has-ansi@2.0.0
+298 silly currentTree ├── has-color@0.1.7
+298 silly currentTree ├── hawk@1.0.0
+298 silly currentTree ├── hoek@0.9.1
+298 silly currentTree ├── hooker@0.2.3
+298 silly currentTree ├── html-minifier@0.5.6
+298 silly currentTree ├── http-proxy@1.11.3
+298 silly currentTree ├── http-signature@0.10.1
+298 silly currentTree ├── i@0.3.5
+298 silly currentTree ├── iconv-lite@0.2.11
+298 silly currentTree ├── inherits@2.0.1
+298 silly currentTree ├─┬ inquirer@0.3.5
+298 silly currentTree │ ├── async@0.2.10
+298 silly currentTree │ └── lodash@1.2.1
+298 silly currentTree ├── intersect@0.0.3
+298 silly currentTree ├── is-my-json-valid@2.13.1
+298 silly currentTree ├── is-property@1.0.2
+298 silly currentTree ├── is-typedarray@1.0.0
+298 silly currentTree ├── isarray@0.0.1
+298 silly currentTree ├── isstream@0.1.2
+298 silly currentTree ├── jodid25519@1.0.2
+298 silly currentTree ├── jpegtran-bin@0.2.8
+298 silly currentTree ├── js-yaml@2.0.5
+298 silly currentTree ├── jsbn@0.1.0
+298 silly currentTree ├─┬ jshint@2.3.0
+298 silly currentTree │ └── underscore@1.4.4
+298 silly currentTree ├── json-schema@0.2.2
+298 silly currentTree ├── json-stringify-safe@5.0.1
+298 silly currentTree ├── jsonpointer@2.0.0
+298 silly currentTree ├── jsprim@1.3.0
+298 silly currentTree ├── junk@0.2.2
+298 silly currentTree ├── karma-jasmine@0.1.6
+298 silly currentTree ├── karma-junit-reporter@0.1.0
+298 silly currentTree ├── karma-ng-scenario@0.1.0
+298 silly currentTree ├─┬ karma@0.10.10
+298 silly currentTree │ ├── coffee-script@1.6.3
+298 silly currentTree │ ├── colors@0.6.0-1
+298 silly currentTree │ ├── connect@2.8.8
+298 silly currentTree │ ├── cookie@0.1.0
+298 silly currentTree │ ├── fresh@0.2.0
+298 silly currentTree │ ├─┬ http-proxy@0.10.4
+298 silly currentTree │ │ ├── colors@0.6.2
+298 silly currentTree │ │ └── optimist@0.6.1
+298 silly currentTree │ ├── lodash@1.1.1
+298 silly currentTree │ ├── optimist@0.3.7
+298 silly currentTree │ ├── qs@0.6.5
+298 silly currentTree │ ├── rimraf@2.1.4
+298 silly currentTree │ └── send@0.1.4
+298 silly currentTree ├── keypress@0.1.0
+298 silly currentTree ├── load-grunt-tasks@0.2.1
+298 silly currentTree ├── lodash@0.9.2
+298 silly currentTree ├─┬ log-symbols@1.0.2
+298 silly currentTree │ ├── ansi-styles@2.2.1
+298 silly currentTree │ ├── chalk@1.1.3
+298 silly currentTree │ └── strip-ansi@3.0.1
+298 silly currentTree ├─┬ log4js@0.6.38
+298 silly currentTree │ ├── readable-stream@1.0.34
+298 silly currentTree │ └── semver@4.3.6
+298 silly currentTree ├── lpad@0.1.0
+298 silly currentTree ├── lru-cache@2.7.3
+298 silly currentTree ├── memoizee@0.2.6
+298 silly currentTree ├── methods@0.0.1
+298 silly currentTree ├── mime-db@1.23.0
+298 silly currentTree ├── mime-types@2.1.11
+298 silly currentTree ├── mime@1.2.11
+298 silly currentTree ├── minimatch@0.2.14
+298 silly currentTree ├── minimist@0.0.10
+298 silly currentTree ├── mkdirp@0.3.5
+298 silly currentTree ├── mkpath@0.1.0
+298 silly currentTree ├── mout@0.7.1
+298 silly currentTree ├── ms@0.7.1
+298 silly currentTree ├── mute-stream@0.0.3
+298 silly currentTree ├── ncp@0.4.2
+298 silly currentTree ├── next-tick@0.1.0
+298 silly currentTree ├─┬ ngmin@0.4.1
+298 silly currentTree │ └── commander@1.1.1
+298 silly currentTree ├── node-uuid@1.4.7
+298 silly currentTree ├── nopt@1.0.10
+298 silly currentTree ├─┬ noptify@0.0.3
+298 silly currentTree │ └── nopt@2.0.0
+298 silly currentTree ├── oauth-sign@0.3.0
+298 silly currentTree ├── object-assign@2.1.1
+298 silly currentTree ├── object-keys@0.4.0
+298 silly currentTree ├── open@0.0.5
+298 silly currentTree ├── optimist@0.6.1
+298 silly currentTree ├── options@0.0.6
+298 silly currentTree ├── optipng-bin@0.3.11
+298 silly currentTree ├── os-homedir@1.0.1
+298 silly currentTree ├── os-tmpdir@1.0.1
+298 silly currentTree ├── osenv@0.0.3
+298 silly currentTree ├── p-throttler@0.0.1
+298 silly currentTree ├── pause@0.0.1
+298 silly currentTree ├── pinkie-promise@2.0.1
+298 silly currentTree ├── pinkie@2.0.4
+298 silly currentTree ├── pkginfo@0.3.1
+298 silly currentTree ├─┬ pngquant-bin@0.1.7
+298 silly currentTree │ ├── ansi-styles@1.0.0
+298 silly currentTree │ ├── bin-wrapper@0.2.4
+298 silly currentTree │ ├── chalk@0.4.0
+298 silly currentTree │ └── mout@0.9.1
+298 silly currentTree ├── policyfile@0.0.4
+298 silly currentTree ├── pretty-bytes@0.1.2
+298 silly currentTree ├── process-nextick-args@1.0.7
+298 silly currentTree ├── promised-io@0.3.5
+298 silly currentTree ├── promptly@0.2.1
+298 silly currentTree ├── q@0.9.7
+298 silly currentTree ├── qs@0.6.6
+298 silly currentTree ├── range-parser@0.0.4
+298 silly currentTree ├─┬ read@1.0.7
+298 silly currentTree │ └── mute-stream@0.0.6
+298 silly currentTree ├── readable-stream@1.1.14
+298 silly currentTree ├── recursive-readdir@0.0.2
+298 silly currentTree ├── redeyed@0.4.4
+298 silly currentTree ├── redis@0.7.3
+298 silly currentTree ├── request-progress@0.3.1
+298 silly currentTree ├── request-replay@0.2.0
+298 silly currentTree ├── request@2.27.0
+298 silly currentTree ├── requires-port@0.0.1
+298 silly currentTree ├── retry@0.6.1
+298 silly currentTree ├── rimraf@2.2.8
+298 silly currentTree ├── sax@0.6.1
+298 silly currentTree ├── semver@2.1.0
+298 silly currentTree ├── send@0.1.1
+298 silly currentTree ├── shelljs@0.1.4
+298 silly currentTree ├── sigmund@1.0.1
+298 silly currentTree ├── sntp@0.2.4
+298 silly currentTree ├─┬ socket.io-client@0.9.16
+298 silly currentTree │ └── uglify-js@1.2.5
+298 silly currentTree ├── socket.io@0.9.17
+298 silly currentTree ├── source-map@0.1.43
+298 silly currentTree ├── sprintf-js@1.0.3
+298 silly currentTree ├─┬ sshpk@1.9.2
+298 silly currentTree │ ├── asn1@0.2.3
+298 silly currentTree │ └── assert-plus@1.0.0
+298 silly currentTree ├── stream-combiner@0.0.4
+298 silly currentTree ├── string_decoder@0.10.31
+298 silly currentTree ├── stringify-object@0.1.8
+298 silly currentTree ├── stringstream@0.0.5
+298 silly currentTree ├── strip-ansi@0.1.1
+298 silly currentTree ├── sudo-block@0.2.1
+298 silly currentTree ├── supports-color@2.0.0
+298 silly currentTree ├─┬ svgo@0.4.5
+298 silly currentTree │ └── js-yaml@2.1.3
+298 silly currentTree ├── tar@0.1.20
+298 silly currentTree ├─┬ tempfile@0.1.3
+298 silly currentTree │ └── uuid@1.4.2
+298 silly currentTree ├── text-table@0.2.0
+298 silly currentTree ├── throttleit@0.0.2
+298 silly currentTree ├─┬ through2@0.4.2
+298 silly currentTree │ ├── readable-stream@1.0.34
+298 silly currentTree │ └── xtend@2.1.2
+298 silly currentTree ├─┬ time-grunt@0.2.3
+298 silly currentTree │ ├── ansi-styles@0.2.0
+298 silly currentTree │ ├── chalk@0.3.0
+298 silly currentTree │ └── ms@0.6.2
+298 silly currentTree ├─┬ tiny-lr@0.0.4
+298 silly currentTree │ ├── debug@0.7.4
+298 silly currentTree │ └── qs@0.5.6
+298 silly currentTree ├── tinycolor@0.0.1
+298 silly currentTree ├── tmp@0.0.28
+298 silly currentTree ├── touch@0.0.2
+298 silly currentTree ├── tough-cookie@2.3.1
+298 silly currentTree ├── traverse@0.3.9
+298 silly currentTree ├── tunnel-agent@0.3.0
+298 silly currentTree ├── tweetnacl@0.13.3
+298 silly currentTree ├─┬ uglify-js@2.3.6
+298 silly currentTree │ ├── async@0.2.10
+298 silly currentTree │ └── optimist@0.3.7
+298 silly currentTree ├── uglify-to-browserify@1.0.2
+298 silly currentTree ├── uid2@0.0.2
+298 silly currentTree ├── underscore.string@2.2.1
+298 silly currentTree ├── underscore@1.7.0
+298 silly currentTree ├─┬ update-notifier@0.1.10
+298 silly currentTree │ ├── ansi-styles@1.0.0
+298 silly currentTree │ ├── assert-plus@0.2.0
+298 silly currentTree │ ├── async@1.5.2
+298 silly currentTree │ ├── boom@2.10.1
+298 silly currentTree │ ├── chalk@0.4.0
+298 silly currentTree │ ├── combined-stream@1.0.5
+298 silly currentTree │ ├── cryptiles@2.0.5
+298 silly currentTree │ ├── delayed-stream@1.0.0
+298 silly currentTree │ ├── forever-agent@0.6.1
+298 silly currentTree │ ├── form-data@1.0.0-rc4
+298 silly currentTree │ ├── hawk@3.1.3
+298 silly currentTree │ ├── hoek@2.16.3
+298 silly currentTree │ ├── http-signature@1.1.1
+298 silly currentTree │ ├── oauth-sign@0.8.2
+298 silly currentTree │ ├── qs@6.2.1
+298 silly currentTree │ ├── request@2.74.0
+298 silly currentTree │ ├── semver@2.3.2
+298 silly currentTree │ ├── sntp@1.0.9
+298 silly currentTree │ └── tunnel-agent@0.4.3
+298 silly currentTree ├── user-home@1.1.1
+298 silly currentTree ├─┬ useragent@2.0.10
+298 silly currentTree │ └── lru-cache@2.2.4
+298 silly currentTree ├── util-deprecate@1.0.2
+298 silly currentTree ├─┬ utile@0.2.1
+298 silly currentTree │ └── async@0.2.10
+298 silly currentTree ├── uuid@2.0.2
+298 silly currentTree ├── verror@1.3.6
+298 silly currentTree ├── whet.extend@0.9.9
+298 silly currentTree ├── which@1.0.9
+298 silly currentTree ├── window-size@0.1.0
+298 silly currentTree ├─┬ wiredep@0.4.2
+298 silly currentTree │ └── lodash@1.3.1
+298 silly currentTree ├── wordwrap@0.0.3
+298 silly currentTree ├─┬ ws@0.4.32
+298 silly currentTree │ ├── commander@2.1.0
+298 silly currentTree │ └── nan@1.0.0
+298 silly currentTree ├── xdg-basedir@1.0.1
+298 silly currentTree ├── xmlbuilder@0.4.2
+298 silly currentTree ├── xmlhttprequest@1.4.2
+298 silly currentTree ├── xtend@4.0.1
+298 silly currentTree ├─┬ yargs@3.5.4
+298 silly currentTree │ └── wordwrap@0.0.2
+298 silly currentTree ├── zeparser@0.0.5
+298 silly currentTree └── zlib-browserify@0.0.1
+299 silly idealTree cartographers@0.0.0
+299 silly idealTree ├── abbrev@1.0.9
+299 silly idealTree ├── active-x-obfuscator@0.0.1
+299 silly idealTree ├── adm-zip@0.4.7
+299 silly idealTree ├── amdefine@1.0.0
+299 silly idealTree ├── ansi-regex@2.0.0
+299 silly idealTree ├── ansi-styles@0.1.2
+299 silly idealTree ├── ansicolors@0.2.1
+299 silly idealTree ├── archy@0.0.2
+299 silly idealTree ├─┬ argparse@0.1.16
+299 silly idealTree │ └── underscore.string@2.4.0
+299 silly idealTree ├── asn1@0.1.11
+299 silly idealTree ├── assert-plus@0.1.5
+299 silly idealTree ├── astral-angular-annotate@0.0.2
+299 silly idealTree ├── astral-pass@0.1.0
+299 silly idealTree ├── astral@0.1.0
+299 silly idealTree ├── async@0.1.22
+299 silly idealTree ├── aws-sign@0.3.0
+299 silly idealTree ├── aws-sign2@0.6.0
+299 silly idealTree ├── aws4@1.4.1
+299 silly idealTree ├── base64id@0.1.0
+299 silly idealTree ├── bin-build@0.1.1
+299 silly idealTree ├── bin-check@0.1.5
+299 silly idealTree ├── bin-wrapper@0.3.4
+299 silly idealTree ├── binary@0.3.0
+299 silly idealTree ├─┬ bl@1.1.2
+299 silly idealTree │ ├── isarray@1.0.0
+299 silly idealTree │ └── readable-stream@2.0.6
+299 silly idealTree ├── block-stream@0.0.9
+299 silly idealTree ├── boom@0.4.2
+299 silly idealTree ├─┬ bower-config@0.5.2
+299 silly idealTree │ ├── graceful-fs@2.0.3
+299 silly idealTree │ └── mout@0.9.1
+299 silly idealTree ├── bower-endpoint-parser@0.2.2
+299 silly idealTree ├─┬ bower-json@0.4.0
+299 silly idealTree │ └── graceful-fs@2.0.3
+299 silly idealTree ├── bower-logger@0.2.2
+299 silly idealTree ├─┬ bower-registry-client@0.1.6
+299 silly idealTree │ ├── async@0.2.10
+299 silly idealTree │ ├── bower-config@0.4.5
+299 silly idealTree │ ├── graceful-fs@2.0.3
+299 silly idealTree │ ├── lru-cache@2.3.1
+299 silly idealTree │ └── mout@0.6.0
+299 silly idealTree ├─┬ bower@1.2.8
+299 silly idealTree │ ├── ansi-styles@0.2.0
+299 silly idealTree │ ├── chalk@0.2.1
+299 silly idealTree │ ├── glob@3.2.11
+299 silly idealTree │ ├── graceful-fs@2.0.3
+299 silly idealTree │ ├── lru-cache@2.3.1
+299 silly idealTree │ ├── minimatch@0.3.0
+299 silly idealTree │ └── nopt@2.1.2
+299 silly idealTree ├── buffer-crc32@0.2.1
+299 silly idealTree ├── buffers@0.1.1
+299 silly idealTree ├── bytes@0.2.0
+299 silly idealTree ├── camelcase@1.2.1
+299 silly idealTree ├── cardinal@0.4.4
+299 silly idealTree ├── caseless@0.11.0
+299 silly idealTree ├── chainsaw@0.1.0
+299 silly idealTree ├── chalk@0.1.1
+299 silly idealTree ├── chmodr@0.1.2
+299 silly idealTree ├── chokidar@0.8.4
+299 silly idealTree ├─┬ clean-css@2.0.8
+299 silly idealTree │ └── commander@2.0.0
+299 silly idealTree ├── cli-color@0.2.3
+299 silly idealTree ├── cli@0.4.5
+299 silly idealTree ├── clone@0.1.19
+299 silly idealTree ├── coa@0.4.1
+299 silly idealTree ├── coffee-script@1.3.3
+299 silly idealTree ├── colors@0.6.2
+299 silly idealTree ├── combined-stream@0.0.7
+299 silly idealTree ├── commander@2.9.0
+299 silly idealTree ├─┬ configstore@0.3.2
+299 silly idealTree │ ├── argparse@1.0.7
+299 silly idealTree │ ├── esprima@2.7.2
+299 silly idealTree │ ├── graceful-fs@3.0.8
+299 silly idealTree │ ├── js-yaml@3.6.1
+299 silly idealTree │ ├── minimist@0.0.8
+299 silly idealTree │ ├── mkdirp@0.5.1
+299 silly idealTree │ └── osenv@0.1.3
+299 silly idealTree ├── connect-livereload@0.2.0
+299 silly idealTree ├─┬ connect@2.7.11
+299 silly idealTree │ └── qs@0.6.5
+299 silly idealTree ├── console-browserify@0.1.6
+299 silly idealTree ├── cookie-jar@0.3.0
+299 silly idealTree ├── cookie-signature@1.0.1
+299 silly idealTree ├── cookie@0.0.5
+299 silly idealTree ├── core-util-is@1.0.2
+299 silly idealTree ├── cryptiles@0.2.2
+299 silly idealTree ├── css-parse@1.6.0
+299 silly idealTree ├── css-stringify@1.4.1
+299 silly idealTree ├── ctype@0.5.3
+299 silly idealTree ├─┬ dashdash@1.14.0
+299 silly idealTree │ └── assert-plus@1.0.0
+299 silly idealTree ├── dateformat@1.0.2-1.2.3
+299 silly idealTree ├── debug@2.2.0
+299 silly idealTree ├── decamelize@1.2.0
+299 silly idealTree ├─┬ decompress-zip@0.0.8
+299 silly idealTree │ ├── graceful-fs@3.0.8
+299 silly idealTree │ ├── nopt@2.2.1
+299 silly idealTree │ └── q@1.0.1
+299 silly idealTree ├─┬ decompress@0.2.5
+299 silly idealTree │ └── nopt@2.2.1
+299 silly idealTree ├── deep-equal@1.0.1
+299 silly idealTree ├── deep-extend@0.2.11
+299 silly idealTree ├── delayed-stream@0.0.5
+299 silly idealTree ├── di@0.0.1
+299 silly idealTree ├─┬ download@0.1.19
+299 silly idealTree │ ├── assert-plus@0.2.0
+299 silly idealTree │ ├── async@1.5.2
+299 silly idealTree │ ├── boom@2.10.1
+299 silly idealTree │ ├── combined-stream@1.0.5
+299 silly idealTree │ ├── cryptiles@2.0.5
+299 silly idealTree │ ├── delayed-stream@1.0.0
+299 silly idealTree │ ├── forever-agent@0.6.1
+299 silly idealTree │ ├── form-data@1.0.0-rc4
+299 silly idealTree │ ├── hawk@3.1.3
+299 silly idealTree │ ├── hoek@2.16.3
+299 silly idealTree │ ├── http-signature@1.1.1
+299 silly idealTree │ ├── nopt@2.2.1
+299 silly idealTree │ ├── oauth-sign@0.8.2
+299 silly idealTree │ ├── qs@6.2.1
+299 silly idealTree │ ├── request@2.74.0
+299 silly idealTree │ ├── sntp@1.0.9
+299 silly idealTree │ └── tunnel-agent@0.4.3
+299 silly idealTree ├── duplexer@0.1.1
+299 silly idealTree ├── each-async@0.1.3
+299 silly idealTree ├── ecc-jsbn@0.1.1
+299 silly idealTree ├── es5-ext@0.9.2
+299 silly idealTree ├── escape-string-regexp@1.0.5
+299 silly idealTree ├── escodegen@0.0.28
+299 silly idealTree ├── esprima@1.0.4
+299 silly idealTree ├── estraverse@1.3.2
+299 silly idealTree ├── event-emitter@0.2.2
+299 silly idealTree ├── eventemitter2@0.4.14
+299 silly idealTree ├── eventemitter3@1.2.0
+299 silly idealTree ├── executable@0.1.3
+299 silly idealTree ├── exit@0.1.2
+299 silly idealTree ├── ext-list@0.2.0
+299 silly idealTree ├─┬ ext-name@1.0.1
+299 silly idealTree │ └── underscore.string@2.3.3
+299 silly idealTree ├── extend@3.0.0
+299 silly idealTree ├── extsprintf@1.0.2
+299 silly idealTree ├── faye-websocket@0.4.4
+299 silly idealTree ├── filesize@2.0.4
+299 silly idealTree ├── find-file@0.1.4
+299 silly idealTree ├─┬ findup-sync@0.1.3
+299 silly idealTree │ ├── glob@3.2.11
+299 silly idealTree │ ├── lodash@2.4.2
+299 silly idealTree │ └── minimatch@0.3.0
+299 silly idealTree ├── forever-agent@0.5.2
+299 silly idealTree ├─┬ form-data@0.1.4
+299 silly idealTree │ └── async@0.9.2
+299 silly idealTree ├── formidable@1.0.14
+299 silly idealTree ├── fresh@0.1.0
+299 silly idealTree ├── fsevents@0.2.1
+299 silly idealTree ├─┬ fstream-ignore@0.0.10
+299 silly idealTree │ └── minimatch@0.3.0
+299 silly idealTree ├─┬ fstream@0.1.31
+299 silly idealTree │ ├── graceful-fs@3.0.8
+299 silly idealTree │ ├── minimist@0.0.8
+299 silly idealTree │ └── mkdirp@0.5.1
+299 silly idealTree ├── gaze@0.4.3
+299 silly idealTree ├── generate-function@2.0.0
+299 silly idealTree ├── generate-object-property@1.2.0
+299 silly idealTree ├── get-stdin@0.1.0
+299 silly idealTree ├── get-urls@0.1.2
+299 silly idealTree ├── getobject@0.1.0
+299 silly idealTree ├─┬ getpass@0.1.6
+299 silly idealTree │ └── assert-plus@1.0.0
+299 silly idealTree ├── gifsicle@0.1.7
+299 silly idealTree ├─┬ glob@3.1.21
+299 silly idealTree │ └── inherits@1.0.2
+299 silly idealTree ├─┬ globule@0.1.0
+299 silly idealTree │ └── lodash@1.0.2
+299 silly idealTree ├─┬ got@0.2.0
+299 silly idealTree │ └── object-assign@0.3.1
+299 silly idealTree ├── graceful-fs@1.2.3
+299 silly idealTree ├── graceful-readlink@1.0.1
+299 silly idealTree ├─┬ grunt-autoprefixer@0.4.2
+299 silly idealTree │ └── autoprefixer@0.8.20131213
+299 silly idealTree ├── grunt-bower-install@0.7.0
+299 silly idealTree ├─┬ grunt-bowercopy@0.4.1
+299 silly idealTree │ └── lodash@2.4.2
+299 silly idealTree ├─┬ grunt-concurrent@0.4.3
+299 silly idealTree │ └── async@0.2.10
+299 silly idealTree ├── grunt-connect-proxy@0.2.0
+299 silly idealTree ├── grunt-contrib-clean@0.5.0
+299 silly idealTree ├── grunt-contrib-concat@0.3.0
+299 silly idealTree ├─┬ grunt-contrib-connect@0.5.0
+299 silly idealTree │ └── open@0.0.4
+299 silly idealTree ├── grunt-contrib-copy@0.4.1
+299 silly idealTree ├── grunt-contrib-cssmin@0.7.0
+299 silly idealTree ├── grunt-contrib-htmlmin@0.1.3
+299 silly idealTree ├─┬ grunt-contrib-imagemin@0.4.1
+299 silly idealTree │ ├── ansi-styles@1.0.0
+299 silly idealTree │ ├── async@0.2.10
+299 silly idealTree │ └── chalk@0.4.0
+299 silly idealTree ├── grunt-contrib-jshint@0.7.2
+299 silly idealTree ├─┬ grunt-contrib-uglify@0.2.7
+299 silly idealTree │ ├── async@0.2.10
+299 silly idealTree │ ├── source-map@0.1.34
+299 silly idealTree │ └── uglify-js@2.4.24
+299 silly idealTree ├── grunt-contrib-watch@0.5.3
+299 silly idealTree ├── grunt-karma@0.6.2
+299 silly idealTree ├─┬ grunt-legacy-log-utils@0.1.1
+299 silly idealTree │ ├── lodash@2.4.2
+299 silly idealTree │ └── underscore.string@2.3.3
+299 silly idealTree ├─┬ grunt-legacy-log@0.1.3
+299 silly idealTree │ ├── lodash@2.4.2
+299 silly idealTree │ └── underscore.string@2.3.3
+299 silly idealTree ├── grunt-legacy-util@0.2.0
+299 silly idealTree ├── grunt-lib-contrib@0.6.1
+299 silly idealTree ├─┬ grunt-modernizr@0.4.1
+299 silly idealTree │ └── uglify-js@1.3.3
+299 silly idealTree ├── grunt-ngmin@0.0.3
+299 silly idealTree ├── grunt-rev@0.1.0
+299 silly idealTree ├─┬ grunt-svgmin@0.3.1
+299 silly idealTree │ ├── ansi-styles@1.0.0
+299 silly idealTree │ └── chalk@0.4.0
+299 silly idealTree ├─┬ grunt-sync@0.0.8
+299 silly idealTree │ └── promised-io@0.3.3
+299 silly idealTree ├─┬ grunt-usemin@2.0.2
+299 silly idealTree │ ├── debug@0.7.4
+299 silly idealTree │ └── lodash@1.0.2
+299 silly idealTree ├── grunt@0.4.5
+299 silly idealTree ├─┬ handlebars@1.0.12
+299 silly idealTree │ └── optimist@0.3.7
+299 silly idealTree ├─┬ har-validator@2.0.6
+299 silly idealTree │ ├── ansi-styles@2.2.1
+299 silly idealTree │ ├── chalk@1.1.3
+299 silly idealTree │ └── strip-ansi@3.0.1
+299 silly idealTree ├── has-ansi@2.0.0
+299 silly idealTree ├── has-color@0.1.7
+299 silly idealTree ├── hawk@1.0.0
+299 silly idealTree ├── hoek@0.9.1
+299 silly idealTree ├── hooker@0.2.3
+299 silly idealTree ├── html-minifier@0.5.6
+299 silly idealTree ├── http-proxy@1.11.3
+299 silly idealTree ├── http-signature@0.10.1
+299 silly idealTree ├── i@0.3.5
+299 silly idealTree ├── iconv-lite@0.2.11
+299 silly idealTree ├── inherits@2.0.1
+299 silly idealTree ├─┬ inquirer@0.3.5
+299 silly idealTree │ ├── async@0.2.10
+299 silly idealTree │ └── lodash@1.2.1
+299 silly idealTree ├── intersect@0.0.3
+299 silly idealTree ├── is-my-json-valid@2.13.1
+299 silly idealTree ├── is-property@1.0.2
+299 silly idealTree ├── is-typedarray@1.0.0
+299 silly idealTree ├── isarray@0.0.1
+299 silly idealTree ├── isstream@0.1.2
+299 silly idealTree ├── jodid25519@1.0.2
+299 silly idealTree ├── jpegtran-bin@0.2.8
+299 silly idealTree ├── js-yaml@2.0.5
+299 silly idealTree ├── jsbn@0.1.0
+299 silly idealTree ├─┬ jshint@2.3.0
+299 silly idealTree │ └── underscore@1.4.4
+299 silly idealTree ├── json-schema@0.2.2
+299 silly idealTree ├── json-stringify-safe@5.0.1
+299 silly idealTree ├── jsonpointer@2.0.0
+299 silly idealTree ├── jsprim@1.3.0
+299 silly idealTree ├── junk@0.2.2
+299 silly idealTree ├── karma-jasmine@0.1.6
+299 silly idealTree ├── karma-junit-reporter@0.1.0
+299 silly idealTree ├── karma-ng-scenario@0.1.0
+299 silly idealTree ├─┬ karma@0.10.10
+299 silly idealTree │ ├── coffee-script@1.6.3
+299 silly idealTree │ ├── colors@0.6.0-1
+299 silly idealTree │ ├── connect@2.8.8
+299 silly idealTree │ ├── cookie@0.1.0
+299 silly idealTree │ ├── fresh@0.2.0
+299 silly idealTree │ ├─┬ http-proxy@0.10.4
+299 silly idealTree │ │ ├── colors@0.6.2
+299 silly idealTree │ │ └── optimist@0.6.1
+299 silly idealTree │ ├── lodash@1.1.1
+299 silly idealTree │ ├── optimist@0.3.7
+299 silly idealTree │ ├── qs@0.6.5
+299 silly idealTree │ ├── rimraf@2.1.4
+299 silly idealTree │ └── send@0.1.4
+299 silly idealTree ├── keypress@0.1.0
+299 silly idealTree ├── load-grunt-tasks@0.2.1
+299 silly idealTree ├── lodash@0.9.2
+299 silly idealTree ├─┬ log-symbols@1.0.2
+299 silly idealTree │ ├── ansi-styles@2.2.1
+299 silly idealTree │ ├── chalk@1.1.3
+299 silly idealTree │ └── strip-ansi@3.0.1
+299 silly idealTree ├─┬ log4js@0.6.38
+299 silly idealTree │ ├── readable-stream@1.0.34
+299 silly idealTree │ └── semver@4.3.6
+299 silly idealTree ├── lpad@0.1.0
+299 silly idealTree ├── lru-cache@2.7.3
+299 silly idealTree ├── memoizee@0.2.6
+299 silly idealTree ├── methods@0.0.1
+299 silly idealTree ├── mime-db@1.23.0
+299 silly idealTree ├── mime-types@2.1.11
+299 silly idealTree ├── mime@1.2.11
+299 silly idealTree ├── minimatch@0.2.14
+299 silly idealTree ├── minimist@0.0.10
+299 silly idealTree ├── mkdirp@0.3.5
+299 silly idealTree ├── mkpath@0.1.0
+299 silly idealTree ├── mout@0.7.1
+299 silly idealTree ├── ms@0.7.1
+299 silly idealTree ├── mute-stream@0.0.3
+299 silly idealTree ├── nan@0.8.0
+299 silly idealTree ├── ncp@0.4.2
+299 silly idealTree ├── next-tick@0.1.0
+299 silly idealTree ├─┬ ngmin@0.4.1
+299 silly idealTree │ └── commander@1.1.1
+299 silly idealTree ├── node-uuid@1.4.7
+299 silly idealTree ├── nopt@1.0.10
+299 silly idealTree ├─┬ noptify@0.0.3
+299 silly idealTree │ └── nopt@2.0.0
+299 silly idealTree ├── oauth-sign@0.3.0
+299 silly idealTree ├── object-assign@2.1.1
+299 silly idealTree ├── object-keys@0.4.0
+299 silly idealTree ├── open@0.0.5
+299 silly idealTree ├── optimist@0.6.1
+299 silly idealTree ├── options@0.0.6
+299 silly idealTree ├── optipng-bin@0.3.11
+299 silly idealTree ├── os-homedir@1.0.1
+299 silly idealTree ├── os-tmpdir@1.0.1
+299 silly idealTree ├── osenv@0.0.3
+299 silly idealTree ├── p-throttler@0.0.1
+299 silly idealTree ├── pause@0.0.1
+299 silly idealTree ├── pinkie-promise@2.0.1
+299 silly idealTree ├── pinkie@2.0.4
+299 silly idealTree ├── pkginfo@0.3.1
+299 silly idealTree ├─┬ pngquant-bin@0.1.7
+299 silly idealTree │ ├── ansi-styles@1.0.0
+299 silly idealTree │ ├── bin-wrapper@0.2.4
+299 silly idealTree │ ├── chalk@0.4.0
+299 silly idealTree │ └── mout@0.9.1
+299 silly idealTree ├── policyfile@0.0.4
+299 silly idealTree ├── pretty-bytes@0.1.2
+299 silly idealTree ├── process-nextick-args@1.0.7
+299 silly idealTree ├── promised-io@0.3.5
+299 silly idealTree ├── promptly@0.2.1
+299 silly idealTree ├── q@0.9.7
+299 silly idealTree ├── qs@0.6.6
+299 silly idealTree ├── range-parser@0.0.4
+299 silly idealTree ├─┬ read@1.0.7
+299 silly idealTree │ └── mute-stream@0.0.6
+299 silly idealTree ├── readable-stream@1.1.14
+299 silly idealTree ├── recursive-readdir@0.0.2
+299 silly idealTree ├── redeyed@0.4.4
+299 silly idealTree ├── redis@0.7.3
+299 silly idealTree ├── request-progress@0.3.1
+299 silly idealTree ├── request-replay@0.2.0
+299 silly idealTree ├── request@2.27.0
+299 silly idealTree ├── requires-port@0.0.1
+299 silly idealTree ├── retry@0.6.1
+299 silly idealTree ├── rimraf@2.2.8
+299 silly idealTree ├── sax@0.6.1
+299 silly idealTree ├── semver@2.1.0
+299 silly idealTree ├── send@0.1.1
+299 silly idealTree ├── shelljs@0.1.4
+299 silly idealTree ├── sigmund@1.0.1
+299 silly idealTree ├── sntp@0.2.4
+299 silly idealTree ├─┬ socket.io-client@0.9.16
+299 silly idealTree │ └── uglify-js@1.2.5
+299 silly idealTree ├── socket.io@0.9.17
+299 silly idealTree ├── source-map@0.1.43
+299 silly idealTree ├── sprintf-js@1.0.3
+299 silly idealTree ├─┬ sshpk@1.9.2
+299 silly idealTree │ ├── asn1@0.2.3
+299 silly idealTree │ └── assert-plus@1.0.0
+299 silly idealTree ├── stream-combiner@0.0.4
+299 silly idealTree ├── string_decoder@0.10.31
+299 silly idealTree ├── stringify-object@0.1.8
+299 silly idealTree ├── stringstream@0.0.5
+299 silly idealTree ├── strip-ansi@0.1.1
+299 silly idealTree ├── sudo-block@0.2.1
+299 silly idealTree ├── supports-color@2.0.0
+299 silly idealTree ├─┬ svgo@0.4.5
+299 silly idealTree │ └── js-yaml@2.1.3
+299 silly idealTree ├── tar@0.1.20
+299 silly idealTree ├─┬ tempfile@0.1.3
+299 silly idealTree │ └── uuid@1.4.2
+299 silly idealTree ├── text-table@0.2.0
+299 silly idealTree ├── throttleit@0.0.2
+299 silly idealTree ├─┬ through2@0.4.2
+299 silly idealTree │ ├── readable-stream@1.0.34
+299 silly idealTree │ └── xtend@2.1.2
+299 silly idealTree ├─┬ time-grunt@0.2.3
+299 silly idealTree │ ├── ansi-styles@0.2.0
+299 silly idealTree │ ├── chalk@0.3.0
+299 silly idealTree │ └── ms@0.6.2
+299 silly idealTree ├─┬ tiny-lr@0.0.4
+299 silly idealTree │ ├── debug@0.7.4
+299 silly idealTree │ └── qs@0.5.6
+299 silly idealTree ├── tinycolor@0.0.1
+299 silly idealTree ├── tmp@0.0.28
+299 silly idealTree ├── touch@0.0.2
+299 silly idealTree ├── tough-cookie@2.3.1
+299 silly idealTree ├── traverse@0.3.9
+299 silly idealTree ├── tunnel-agent@0.3.0
+299 silly idealTree ├── tweetnacl@0.13.3
+299 silly idealTree ├─┬ uglify-js@2.3.6
+299 silly idealTree │ ├── async@0.2.10
+299 silly idealTree │ └── optimist@0.3.7
+299 silly idealTree ├── uglify-to-browserify@1.0.2
+299 silly idealTree ├── uid2@0.0.2
+299 silly idealTree ├── underscore.string@2.2.1
+299 silly idealTree ├── underscore@1.7.0
+299 silly idealTree ├─┬ update-notifier@0.1.10
+299 silly idealTree │ ├── ansi-styles@1.0.0
+299 silly idealTree │ ├── assert-plus@0.2.0
+299 silly idealTree │ ├── async@1.5.2
+299 silly idealTree │ ├── boom@2.10.1
+299 silly idealTree │ ├── chalk@0.4.0
+299 silly idealTree │ ├── combined-stream@1.0.5
+299 silly idealTree │ ├── cryptiles@2.0.5
+299 silly idealTree │ ├── delayed-stream@1.0.0
+299 silly idealTree │ ├── forever-agent@0.6.1
+299 silly idealTree │ ├── form-data@1.0.0-rc4
+299 silly idealTree │ ├── hawk@3.1.3
+299 silly idealTree │ ├── hoek@2.16.3
+299 silly idealTree │ ├── http-signature@1.1.1
+299 silly idealTree │ ├── oauth-sign@0.8.2
+299 silly idealTree │ ├── qs@6.2.1
+299 silly idealTree │ ├── request@2.74.0
+299 silly idealTree │ ├── semver@2.3.2
+299 silly idealTree │ ├── sntp@1.0.9
+299 silly idealTree │ └── tunnel-agent@0.4.3
+299 silly idealTree ├── user-home@1.1.1
+299 silly idealTree ├─┬ useragent@2.0.10
+299 silly idealTree │ └── lru-cache@2.2.4
+299 silly idealTree ├── util-deprecate@1.0.2
+299 silly idealTree ├─┬ utile@0.2.1
+299 silly idealTree │ └── async@0.2.10
+299 silly idealTree ├── uuid@2.0.2
+299 silly idealTree ├── verror@1.3.6
+299 silly idealTree ├── whet.extend@0.9.9
+299 silly idealTree ├── which@1.0.9
+299 silly idealTree ├── window-size@0.1.0
+299 silly idealTree ├─┬ wiredep@0.4.2
+299 silly idealTree │ └── lodash@1.3.1
+299 silly idealTree ├── wordwrap@0.0.3
+299 silly idealTree ├─┬ ws@0.4.32
+299 silly idealTree │ ├── commander@2.1.0
+299 silly idealTree │ └── nan@1.0.0
+299 silly idealTree ├── xdg-basedir@1.0.1
+299 silly idealTree ├── xmlbuilder@0.4.2
+299 silly idealTree ├── xmlhttprequest@1.4.2
+299 silly idealTree ├── xtend@4.0.1
+299 silly idealTree ├─┬ yargs@3.5.4
+299 silly idealTree │ └── wordwrap@0.0.2
+299 silly idealTree ├── zeparser@0.0.5
+299 silly idealTree └── zlib-browserify@0.0.1
+300 silly generateActionsToTake Starting
+301 silly install generateActionsToTake
+302 silly generateActionsToTake Finishing
+303 silly diffTrees action count 7
+304 silly diffTrees add gifsicle@0.1.7
+305 silly diffTrees add ansi-styles@1.0.0
+306 silly diffTrees add async@0.2.10
+307 silly diffTrees add chalk@0.4.0
+308 silly diffTrees add nan@0.8.0
+309 silly diffTrees add fsevents@0.2.1
+310 silly diffTrees add grunt-contrib-imagemin@0.4.1
+311 silly decomposeActions action count 56
+312 silly decomposeActions fetch gifsicle@0.1.7
+313 silly decomposeActions extract gifsicle@0.1.7
+314 silly decomposeActions test gifsicle@0.1.7
+315 silly decomposeActions preinstall gifsicle@0.1.7
+316 silly decomposeActions build gifsicle@0.1.7
+317 silly decomposeActions install gifsicle@0.1.7
+318 silly decomposeActions postinstall gifsicle@0.1.7
+319 silly decomposeActions finalize gifsicle@0.1.7
+320 silly decomposeActions fetch ansi-styles@1.0.0
+321 silly decomposeActions extract ansi-styles@1.0.0
+322 silly decomposeActions test ansi-styles@1.0.0
+323 silly decomposeActions preinstall ansi-styles@1.0.0
+324 silly decomposeActions build ansi-styles@1.0.0
+325 silly decomposeActions install ansi-styles@1.0.0
+326 silly decomposeActions postinstall ansi-styles@1.0.0
+327 silly decomposeActions finalize ansi-styles@1.0.0
+328 silly decomposeActions fetch async@0.2.10
+329 silly decomposeActions extract async@0.2.10
+330 silly decomposeActions test async@0.2.10
+331 silly decomposeActions preinstall async@0.2.10
+332 silly decomposeActions build async@0.2.10
+333 silly decomposeActions install async@0.2.10
+334 silly decomposeActions postinstall async@0.2.10
+335 silly decomposeActions finalize async@0.2.10
+336 silly decomposeActions fetch chalk@0.4.0
+337 silly decomposeActions extract chalk@0.4.0
+338 silly decomposeActions test chalk@0.4.0
+339 silly decomposeActions preinstall chalk@0.4.0
+340 silly decomposeActions build chalk@0.4.0
+341 silly decomposeActions install chalk@0.4.0
+342 silly decomposeActions postinstall chalk@0.4.0
+343 silly decomposeActions finalize chalk@0.4.0
+344 silly decomposeActions fetch nan@0.8.0
+345 silly decomposeActions extract nan@0.8.0
+346 silly decomposeActions test nan@0.8.0
+347 silly decomposeActions preinstall nan@0.8.0
+348 silly decomposeActions build nan@0.8.0
+349 silly decomposeActions install nan@0.8.0
+350 silly decomposeActions postinstall nan@0.8.0
+351 silly decomposeActions finalize nan@0.8.0
+352 silly decomposeActions fetch fsevents@0.2.1
+353 silly decomposeActions extract fsevents@0.2.1
+354 silly decomposeActions test fsevents@0.2.1
+355 silly decomposeActions preinstall fsevents@0.2.1
+356 silly decomposeActions build fsevents@0.2.1
+357 silly decomposeActions install fsevents@0.2.1
+358 silly decomposeActions postinstall fsevents@0.2.1
+359 silly decomposeActions finalize fsevents@0.2.1
+360 silly decomposeActions fetch grunt-contrib-imagemin@0.4.1
+361 silly decomposeActions extract grunt-contrib-imagemin@0.4.1
+362 silly decomposeActions test grunt-contrib-imagemin@0.4.1
+363 silly decomposeActions preinstall grunt-contrib-imagemin@0.4.1
+364 silly decomposeActions build grunt-contrib-imagemin@0.4.1
+365 silly decomposeActions install grunt-contrib-imagemin@0.4.1
+366 silly decomposeActions postinstall grunt-contrib-imagemin@0.4.1
+367 silly decomposeActions finalize grunt-contrib-imagemin@0.4.1
+368 silly executeActions Starting
+369 silly install executeActions
+370 silly doSerial global-install 0
+371 silly doParallel fetch 7
+372 verbose correctMkdir /Users/alan.ponte/.npm/_locks correctMkdir not in flight; initializing
+373 verbose lock using /Users/alan.ponte/.npm/_locks/staging-3cbbbbb76435b7d8.lock for /Users/alan.ponte/hackday/node_modules/.staging
+374 silly doParallel extract 7
+375 silly extract gifsicle@0.1.7
+376 silly extract ansi-styles@1.0.0
+377 silly extract async@0.2.10
+378 silly extract chalk@0.4.0
+379 silly extract nan@0.8.0
+380 silly extract fsevents@0.2.1
+381 silly extract grunt-contrib-imagemin@0.4.1
+382 verbose unbuild node_modules/.staging/ansi-styles-08ee7c61
+383 verbose unbuild node_modules/.staging/chalk-87a7d4a4
+384 verbose unbuild node_modules/.staging/async-c85d8bb3
+385 verbose unbuild node_modules/.staging/nan-15a922a8
+386 verbose unbuild node_modules/.staging/fsevents-7c27acf4
+387 verbose unbuild node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+388 verbose unbuild node_modules/.staging/gifsicle-2a3cab39
+389 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61 is being purged from base /Users/alan.ponte/hackday
+390 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61
+391 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4 is being purged from base /Users/alan.ponte/hackday
+392 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4
+393 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3 is being purged from base /Users/alan.ponte/hackday
+394 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3
+395 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8 is being purged from base /Users/alan.ponte/hackday
+396 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8
+397 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4 is being purged from base /Users/alan.ponte/hackday
+398 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4
+399 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d is being purged from base /Users/alan.ponte/hackday
+400 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+401 verbose tar unpack /Users/alan.ponte/.npm/ansi-styles/1.0.0/package.tgz
+402 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61
+403 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61 is being purged
+404 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61
+405 verbose tar unpack /Users/alan.ponte/.npm/chalk/0.4.0/package.tgz
+406 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4
+407 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4 is being purged
+408 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4
+409 verbose tar unpack /Users/alan.ponte/.npm/async/0.2.10/package.tgz
+410 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3
+411 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3 is being purged
+412 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3
+413 verbose tar unpack /Users/alan.ponte/.npm/nan/0.8.0/package.tgz
+414 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8
+415 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8 is being purged
+416 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8
+417 verbose tar unpack /Users/alan.ponte/.npm/fsevents/0.2.1/package.tgz
+418 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4
+419 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4 is being purged
+420 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4
+421 verbose tar unpack /Users/alan.ponte/.npm/grunt-contrib-imagemin/0.4.1/package.tgz
+422 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+423 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d is being purged
+424 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+425 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39 is being purged from base /Users/alan.ponte/hackday
+426 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+427 silly gunzTarPerm modes [ '755', '644' ]
+428 silly gunzTarPerm modes [ '755', '644' ]
+429 silly gunzTarPerm modes [ '755', '644' ]
+430 silly gunzTarPerm modes [ '755', '644' ]
+431 silly gunzTarPerm modes [ '755', '644' ]
+432 silly gunzTarPerm modes [ '755', '644' ]
+433 verbose tar unpack /Users/alan.ponte/.npm/gifsicle/0.1.7/package.tgz
+434 verbose tar unpacking to /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+435 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39 is being purged
+436 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+437 silly gunzTarPerm modes [ '755', '644' ]
+438 silly gunzTarPerm extractEntry package.json
+439 silly gunzTarPerm extractEntry package.json
+440 silly gunzTarPerm extractEntry package.json
+441 silly gunzTarPerm extractEntry package.json
+442 silly gunzTarPerm extractEntry package.json
+443 silly gunzTarPerm extractEntry package.json
+444 silly gunzTarPerm extractEntry package.json
+445 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+446 silly gunzTarPerm extractEntry ansi-styles.js
+447 silly gunzTarPerm extractEntry readme.md
+448 silly gunzTarPerm extractEntry index.js
+449 silly gunzTarPerm extractEntry readme.md
+450 silly gunzTarPerm extractEntry README.md
+451 silly gunzTarPerm extractEntry LICENSE
+452 silly gunzTarPerm extractEntry component.json
+453 silly gunzTarPerm extractEntry lib/async.js
+454 silly gunzTarPerm extractEntry README.md
+455 silly gunzTarPerm extractEntry LICENSE
+456 silly gunzTarPerm extractEntry include_dirs.js
+457 silly gunzTarPerm extractEntry .dntrc
+458 silly gunzTarPerm extractEntry build/config.gypi
+459 silly gunzTarPerm extractEntry nan.h
+460 silly gunzTarPerm extractEntry .npmignore
+461 silly gunzTarPerm extractEntry LICENSE
+462 silly gunzTarPerm extractEntry README.md
+463 silly gunzTarPerm extractEntry LICENSE-MIT
+464 silly gunzTarPerm extractEntry README.md
+465 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+466 silly gunzTarPerm extractEntry cli.js
+467 silly gunzTarPerm modified mode [ 'cli.js', 438, 420 ]
+468 silly gunzTarPerm extractEntry fsevents.js
+469 silly gunzTarPerm extractEntry CHANGELOG.md
+470 silly gunzTarPerm extractEntry tasks/imagemin.js
+471 silly gunzTarPerm extractEntry index.js
+472 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+473 silly gunzTarPerm extractEntry Readme.md
+474 silly gunzTarPerm extractEntry binding.gyp
+475 silly gunzTarPerm extractEntry fsevents.cc
+476 silly gunzTarPerm extractEntry src/async.cc
+477 silly gunzTarPerm extractEntry src/constants.cc
+478 silly gunzTarPerm extractEntry src/locking.cc
+479 silly gunzTarPerm extractEntry src/methods.cc
+480 silly gunzTarPerm extractEntry src/storage.cc
+481 silly gunzTarPerm extractEntry src/thread.cc
+482 silly gunzTarPerm extractEntry test/fsevents.js
+483 silly gunzTarPerm extractEntry test/function.js
+484 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4/node_modules is being purged
+485 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4/node_modules
+486 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61/node_modules is being purged
+487 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61/node_modules
+488 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39/node_modules is being purged
+489 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39/node_modules
+490 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d/node_modules is being purged
+491 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d/node_modules
+492 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3/node_modules is being purged
+493 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3/node_modules
+494 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8/node_modules is being purged
+495 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8/node_modules
+496 silly gentlyRm /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4/node_modules is being purged
+497 verbose gentlyRm don't care about contents; nuking /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4/node_modules
+498 silly doParallel preinstall 7
+499 silly preinstall gifsicle@0.1.7 /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+500 info lifecycle gifsicle@0.1.7~preinstall: gifsicle@0.1.7
+501 silly preinstall ansi-styles@1.0.0 /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61
+502 info lifecycle ansi-styles@1.0.0~preinstall: ansi-styles@1.0.0
+503 silly preinstall async@0.2.10 /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3
+504 info lifecycle async@0.2.10~preinstall: async@0.2.10
+505 silly preinstall chalk@0.4.0 /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4
+506 info lifecycle chalk@0.4.0~preinstall: chalk@0.4.0
+507 silly preinstall nan@0.8.0 /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8
+508 info lifecycle nan@0.8.0~preinstall: nan@0.8.0
+509 silly preinstall fsevents@0.2.1 /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4
+510 info lifecycle fsevents@0.2.1~preinstall: fsevents@0.2.1
+511 silly preinstall grunt-contrib-imagemin@0.4.1 /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+512 info lifecycle grunt-contrib-imagemin@0.4.1~preinstall: grunt-contrib-imagemin@0.4.1
+513 silly lifecycle gifsicle@0.1.7~preinstall: no script for preinstall, continuing
+514 silly lifecycle ansi-styles@1.0.0~preinstall: no script for preinstall, continuing
+515 silly lifecycle async@0.2.10~preinstall: no script for preinstall, continuing
+516 silly lifecycle chalk@0.4.0~preinstall: no script for preinstall, continuing
+517 silly lifecycle nan@0.8.0~preinstall: no script for preinstall, continuing
+518 silly lifecycle fsevents@0.2.1~preinstall: no script for preinstall, continuing
+519 silly lifecycle grunt-contrib-imagemin@0.4.1~preinstall: no script for preinstall, continuing
+520 silly doReverseSerial remove 0
+521 silly doSerial move 0
+522 silly doSerial finalize 7
+523 silly finalize /Users/alan.ponte/hackday/node_modules/gifsicle
+524 silly finalize /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules/ansi-styles
+525 silly finalize /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules/async
+526 silly finalize /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules/chalk
+527 silly finalize /Users/alan.ponte/hackday/node_modules/nan
+528 silly finalize /Users/alan.ponte/hackday/node_modules/fsevents
+529 silly finalize /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin
+530 silly doSerial build 7
+531 silly build gifsicle@0.1.7
+532 info linkStuff gifsicle@0.1.7
+533 silly linkStuff gifsicle@0.1.7 has /Users/alan.ponte/hackday/node_modules as its parent node_modules
+534 verbose linkBins gifsicle@0.1.7
+535 verbose link bins [ { gifsicle: 'cli.js' },
+535 verbose link bins   '/Users/alan.ponte/hackday/node_modules/.bin',
+535 verbose link bins   false ]
+536 verbose linkMans gifsicle@0.1.7
+537 silly build ansi-styles@1.0.0
+538 info linkStuff ansi-styles@1.0.0
+539 silly linkStuff ansi-styles@1.0.0 has /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules as its parent node_modules
+540 verbose linkBins ansi-styles@1.0.0
+541 verbose linkMans ansi-styles@1.0.0
+542 silly build async@0.2.10
+543 info linkStuff async@0.2.10
+544 silly linkStuff async@0.2.10 has /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules as its parent node_modules
+545 verbose linkBins async@0.2.10
+546 verbose linkMans async@0.2.10
+547 silly build chalk@0.4.0
+548 info linkStuff chalk@0.4.0
+549 silly linkStuff chalk@0.4.0 has /Users/alan.ponte/hackday/node_modules/grunt-contrib-imagemin/node_modules as its parent node_modules
+550 verbose linkBins chalk@0.4.0
+551 verbose linkMans chalk@0.4.0
+552 silly build nan@0.8.0
+553 info linkStuff nan@0.8.0
+554 silly linkStuff nan@0.8.0 has /Users/alan.ponte/hackday/node_modules as its parent node_modules
+555 verbose linkBins nan@0.8.0
+556 verbose linkMans nan@0.8.0
+557 silly build fsevents@0.2.1
+558 info linkStuff fsevents@0.2.1
+559 silly linkStuff fsevents@0.2.1 has /Users/alan.ponte/hackday/node_modules as its parent node_modules
+560 verbose linkBins fsevents@0.2.1
+561 verbose linkMans fsevents@0.2.1
+562 silly build grunt-contrib-imagemin@0.4.1
+563 info linkStuff grunt-contrib-imagemin@0.4.1
+564 silly linkStuff grunt-contrib-imagemin@0.4.1 has /Users/alan.ponte/hackday/node_modules as its parent node_modules
+565 verbose linkBins grunt-contrib-imagemin@0.4.1
+566 verbose linkMans grunt-contrib-imagemin@0.4.1
+567 silly doSerial global-link 0
+568 silly doParallel update-linked 0
+569 silly doSerial install 7
+570 silly install gifsicle@0.1.7 /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+571 info lifecycle gifsicle@0.1.7~install: gifsicle@0.1.7
+572 silly lifecycle gifsicle@0.1.7~install: no script for install, continuing
+573 silly install ansi-styles@1.0.0 /Users/alan.ponte/hackday/node_modules/.staging/ansi-styles-08ee7c61
+574 info lifecycle ansi-styles@1.0.0~install: ansi-styles@1.0.0
+575 silly lifecycle ansi-styles@1.0.0~install: no script for install, continuing
+576 silly install async@0.2.10 /Users/alan.ponte/hackday/node_modules/.staging/async-c85d8bb3
+577 info lifecycle async@0.2.10~install: async@0.2.10
+578 silly lifecycle async@0.2.10~install: no script for install, continuing
+579 silly install chalk@0.4.0 /Users/alan.ponte/hackday/node_modules/.staging/chalk-87a7d4a4
+580 info lifecycle chalk@0.4.0~install: chalk@0.4.0
+581 silly lifecycle chalk@0.4.0~install: no script for install, continuing
+582 silly install nan@0.8.0 /Users/alan.ponte/hackday/node_modules/.staging/nan-15a922a8
+583 info lifecycle nan@0.8.0~install: nan@0.8.0
+584 silly lifecycle nan@0.8.0~install: no script for install, continuing
+585 silly install fsevents@0.2.1 /Users/alan.ponte/hackday/node_modules/.staging/fsevents-7c27acf4
+586 info lifecycle fsevents@0.2.1~install: fsevents@0.2.1
+587 verbose lifecycle fsevents@0.2.1~install: unsafe-perm in lifecycle true
+588 verbose lifecycle fsevents@0.2.1~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/alan.ponte/hackday/node_modules/fsevents/node_modules/.bin:/Users/alan.ponte/hackday/node_modules/.bin:/usr/local/Cellar/node/6.3.1/bin:/Users/alan.ponte/.virtualenvs/hackday/bin:/Users/alan.ponte/.rvm/gems/ruby-2.3.0/bin:/Users/alan.ponte/.rvm/gems/ruby-2.3.0@global/bin:/Users/alan.ponte/.rvm/rubies/ruby-2.3.0/bin:/Users/alan.ponte/.jenv/shims:/Users/alan.ponte/.jenv/shims:/Users/alan.ponte/.jenv/bin:/Users/alan.ponte/.sdkman/candidates/gradle/current/bin:/Users/alan.ponte/.pyenv/shims:/opt/alternatives/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/alan.ponte/.rvm/bin
+589 verbose lifecycle fsevents@0.2.1~install: CWD: /Users/alan.ponte/hackday/node_modules/fsevents
+590 silly lifecycle fsevents@0.2.1~install: Args: [ '-c', 'node-gyp rebuild' ]
+591 silly lifecycle fsevents@0.2.1~install: Returned: code: 1  signal: null
+592 info lifecycle fsevents@0.2.1~install: Failed to exec install script
+593 warn install:fsevents@0.2.1 fsevents@0.2.1 install: `node-gyp rebuild`
+593 warn install:fsevents@0.2.1 Exit status 1
+594 verbose install:fsevents@0.2.1 Error: fsevents@0.2.1 install: `node-gyp rebuild`
+594 verbose install:fsevents@0.2.1 Exit status 1
+594 verbose install:fsevents@0.2.1     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+594 verbose install:fsevents@0.2.1     at emitTwo (events.js:106:13)
+594 verbose install:fsevents@0.2.1     at EventEmitter.emit (events.js:191:7)
+594 verbose install:fsevents@0.2.1     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+594 verbose install:fsevents@0.2.1     at emitTwo (events.js:106:13)
+594 verbose install:fsevents@0.2.1     at ChildProcess.emit (events.js:191:7)
+594 verbose install:fsevents@0.2.1     at maybeClose (internal/child_process.js:852:16)
+594 verbose install:fsevents@0.2.1     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+595 silly install grunt-contrib-imagemin@0.4.1 /Users/alan.ponte/hackday/node_modules/.staging/grunt-contrib-imagemin-9ee9f04d
+596 info lifecycle grunt-contrib-imagemin@0.4.1~install: grunt-contrib-imagemin@0.4.1
+597 silly lifecycle grunt-contrib-imagemin@0.4.1~install: no script for install, continuing
+598 silly doSerial postinstall 7
+599 silly postinstall gifsicle@0.1.7 /Users/alan.ponte/hackday/node_modules/.staging/gifsicle-2a3cab39
+600 info lifecycle gifsicle@0.1.7~postinstall: gifsicle@0.1.7
+601 verbose lifecycle gifsicle@0.1.7~postinstall: unsafe-perm in lifecycle true
+602 verbose lifecycle gifsicle@0.1.7~postinstall: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/alan.ponte/hackday/node_modules/gifsicle/node_modules/.bin:/Users/alan.ponte/hackday/node_modules/.bin:/usr/local/Cellar/node/6.3.1/bin:/Users/alan.ponte/.virtualenvs/hackday/bin:/Users/alan.ponte/.rvm/gems/ruby-2.3.0/bin:/Users/alan.ponte/.rvm/gems/ruby-2.3.0@global/bin:/Users/alan.ponte/.rvm/rubies/ruby-2.3.0/bin:/Users/alan.ponte/.jenv/shims:/Users/alan.ponte/.jenv/shims:/Users/alan.ponte/.jenv/bin:/Users/alan.ponte/.sdkman/candidates/gradle/current/bin:/Users/alan.ponte/.pyenv/shims:/opt/alternatives/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/alan.ponte/.rvm/bin
+603 verbose lifecycle gifsicle@0.1.7~postinstall: CWD: /Users/alan.ponte/hackday/node_modules/gifsicle
+604 silly lifecycle gifsicle@0.1.7~postinstall: Args: [ '-c', 'node index.js' ]
+605 silly lifecycle gifsicle@0.1.7~postinstall: Returned: code: 1  signal: null
+606 info lifecycle gifsicle@0.1.7~postinstall: Failed to exec postinstall script
+607 verbose unlock done using /Users/alan.ponte/.npm/_locks/staging-3cbbbbb76435b7d8.lock for /Users/alan.ponte/hackday/node_modules/.staging
+608 silly rollbackFailedOptional Starting
+609 silly rollbackFailedOptional Finishing
+610 silly runTopLevelLifecycles Starting
+611 silly runTopLevelLifecycles Finishing
+612 silly install printInstalled
+613 warn karma@0.10.10 requires a peer of karma-requirejs@~0.2.0 but none was installed.
+614 warn karma@0.10.10 requires a peer of karma-coffee-preprocessor@~0.1.0 but none was installed.
+615 warn karma@0.10.10 requires a peer of karma-html2js-preprocessor@~0.1.0 but none was installed.
+616 warn karma@0.10.10 requires a peer of karma-chrome-launcher@~0.1.0 but none was installed.
+617 warn karma@0.10.10 requires a peer of karma-firefox-launcher@~0.1.0 but none was installed.
+618 warn karma@0.10.10 requires a peer of karma-phantomjs-launcher@~0.1.0 but none was installed.
+619 warn karma@0.10.10 requires a peer of karma-script-launcher@~0.1.0 but none was installed.
+620 warn cartographers@0.0.0 No repository field.
+621 warn cartographers@0.0.0 No license field.
+622 verbose stack Error: gifsicle@0.1.7 postinstall: `node index.js`
+622 verbose stack Exit status 1
+622 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+622 verbose stack     at emitTwo (events.js:106:13)
+622 verbose stack     at EventEmitter.emit (events.js:191:7)
+622 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+622 verbose stack     at emitTwo (events.js:106:13)
+622 verbose stack     at ChildProcess.emit (events.js:191:7)
+622 verbose stack     at maybeClose (internal/child_process.js:852:16)
+622 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+623 verbose pkgid gifsicle@0.1.7
+624 verbose cwd /Users/alan.ponte/hackday
+625 error Darwin 14.5.0
+626 error argv "/usr/local/Cellar/node/6.3.1/bin/node" "/usr/local/bin/npm" "install"
+627 error node v6.3.1
+628 error npm  v3.10.5
+629 error code ELIFECYCLE
+630 error gifsicle@0.1.7 postinstall: `node index.js`
+630 error Exit status 1
+631 error Failed at the gifsicle@0.1.7 postinstall script 'node index.js'.
+631 error Make sure you have the latest version of node.js and npm installed.
+631 error If you do, this is most likely a problem with the gifsicle package,
+631 error not with npm itself.
+631 error Tell the author that this fails on your system:
+631 error     node index.js
+631 error You can get information on how to open an issue for this project with:
+631 error     npm bugs gifsicle
+631 error Or if that isn't available, you can get their info via:
+631 error     npm owner ls gifsicle
+631 error There is likely additional logging output above.
+632 verbose exit [ 1, true ]
